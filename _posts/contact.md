@@ -84,18 +84,18 @@ msapplication_tile_image: "https://kura.pro/akande/images/logos/akande.webp"
 # Twitter Card - The Twitter Card front matter (YAML).
 
 twitter_card: "summary"
-twitter_creator: "@AkandeVoiceAssistant"
+twitter_creator: "@AkandeAI"
 twitter_description: "Reach out to us now to discover how the Àkàndé Voice Assistant can be the key to enhancing your productivity and efficiency."
 twitter_image: "https://kura.pro/akande/images/logos/akande.webp"
 twitter_image_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
-twitter_site: "@AkandeVoiceAssistant"
+twitter_site: "@AkandeAI"
 twitter_title: "Àkàndé Voice Assistant Help and Support: Get in Touch!"
 twitter_url: "https://akande.co/"
 
 # Humans.txt - The Humans.txt front matter (YAML).
 
 author_website: "https://akande.co/contact/index.html"
-author_twitter: "@AkandeVoiceAssistant"
+author_twitter: "@AkandeAI"
 author_location: "London, UK"
 thanks: "Thanks for reading!"
 site_last_updated: "2024-02-12"

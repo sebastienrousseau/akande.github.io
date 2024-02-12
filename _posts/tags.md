@@ -81,18 +81,18 @@ msapplication-navbutton-color: "rgb(0, 102, 204)"
 # Twitter Card - The Twitter Card front matter (YAML).
 
 twitter_card: "summary"
-twitter_creator: "@AkandeVoiceAssistant"
+twitter_creator: "@AkandeAI"
 twitter_description: "Delve deeper into this website by exploring topics and tags, and get to the subjects that matter most to you."
 twitter_image: "https://kura.pro/sebastienrousseau/images/logos/sebastienrousseau.webp"
 twitter_image_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
-twitter_site: "@AkandeVoiceAssistant"
+twitter_site: "@AkandeAI"
 twitter_title: "Explore by Tags"
 twitter_url: "https://sebastienrousseau.com"
 
 # Humans.txt - The Humans.txt front matter (YAML).
 
 author_website: "https://sebastienrousseau.com"
-author_twitter: "@AkandeVoiceAssistant"
+author_twitter: "@AkandeAI"
 author_location: "London, UK"
 thanks: "Thanks for reading!"
 site_last_updated: "2024-02-12"

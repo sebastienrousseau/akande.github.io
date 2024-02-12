@@ -80,17 +80,17 @@ msapplication-navbutton-color: "rgb(0, 0, 0)"
 # Twitter Card - The Twitter Card front matter (YAML).
 
 twitter_card: "summary"
-twitter_creator: "@AkandeVoiceAssistant"
+twitter_creator: "@AkandeAI"
 twitter_description: "This statement explains the accessibility of our website, what we are doing to address it, and how to contact us about web accessibility."
 twitter_image: "https://kura.pro/akande/images/logos/akande.webp"
 twitter_image_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
-twitter_site: "@AkandeVoiceAssistant"
+twitter_site: "@AkandeAI"
 twitter_title: "Accessibility Statement"
 twitter_url: "https://akande.co/accessibility/index.html"
 
 # Humans.txt - The Humans.txt front matter (YAML).
 author_website: "https://akande.co/accessibility/index.html"
-author_twitter: "@AkandeVoiceAssistant"
+author_twitter: "@AkandeAI"
 author_location: "London, UK"
 thanks: "Thanks for reading!"
 site_last_updated: "2024-02-12"

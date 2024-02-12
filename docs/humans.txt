@@ -1,7 +1,7 @@
 /* TEAM */
 	Name: The Àkàndé Voice Assistant Team
 	Website: https://akande.co/index.html
-	Twitter: @AkandeVoiceAssistant
+	Twitter: @AkandeAI
 	Location: London, UK
 
 /* THANKS */
