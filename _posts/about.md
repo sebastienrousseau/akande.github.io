@@ -12,7 +12,7 @@ changefreq: "weekly"
 charset: "utf-8"
 cname: "akande.co"
 copyright: "© 2024 Àkàndé Voice Assistant. All rights reserved."
-date: "Feb 12, 2024"
+date: "Mar 04, 2024"
 description: "Discover Àkàndé, the AI-powered voice assistant transforming personal and executive tasks with unparalleled efficiency and adaptability"
 download_url: ""
 download_title: ""
@@ -54,15 +54,15 @@ viewport: "width=device-width, initial-scale=1, shrink-to-fit=no"
 atom_link: "https://akande.co/rss.xml"
 category: "Àkàndé Voice Assistant, Quantum Computing in Finance, Quantum Risk Analysis, Quantum Cryptography in Banking, Quantum Key Distribution, Quantum-Resistant Cryptography, Quantum Banking, Future of Banking, Financial Industry Revolution, Quantum Computing Advancements, Quantum Computing Applications"
 docs: "https://validator.w3.org/feed/docs/rss2.html"
-generator: "Shokunin 🦀 (version 0.0.23)"
+generator: "Shokunin SSG (version 0.0.26)"
 item_description: "Discover Àkàndé, the AI-powered voice assistant transforming personal and executive tasks with unparalleled efficiency and adaptability"
 item_guid: "https://akande.co/rss.xml"
 item_link: "https://akande.co/rss.xml"
-item_pub_date: "2024-02-12T06:06:06+01:00"
+item_pub_date: "Mon, 04 Mar 2024 06:06:06 +0100"
 item_title: "Meet Àkàndé: The AI Assistant for Productivity"
-last_build_date: "2024-02-12T06:06:06+01:00"
+last_build_date: "Mon, 04 Mar 2024 06:06:06 +0100"
 managing_editor: "contact@akande.co"
-pub_date: "2024-02-12T06:06:06+01:00"
+pub_date: "Mon, 04 Mar 2024 06:06:06 +0100"
 ttl: "60"
 type: "website"
 webmaster: "contact@akande.co"
@@ -152,6 +152,11 @@ Unlike other assistants, Àkàndé adapts through natural speech patterns. We un
 
 ## Experience a Smarter Way to Get Things Done
 
-See for yourself how Àkàndé can save you time, keep you informed, and help you focus.
+### See for yourself how Àkàndé can save you time, keep you informed, and help you focus.
+
+#### How to Get Started
+
+1. [**Download the source code**](https://github.com/sebastienrousseau/akande)
+2. [**Contact us**](https://akande.co/contact/index.html) for enterprise solutions
 
 [divider]: https://kura.pro/common/images/elements/divider.svg "Divider"

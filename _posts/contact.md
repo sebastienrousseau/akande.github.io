@@ -12,7 +12,7 @@ changefreq: "weekly"
 charset: "utf-8"
 cname: ""
 copyright: "© 2024 Àkàndé Voice Assistant. All rights reserved."
-date: "Feb 12, 2024"
+date: "Mar 04, 2024"
 description: "Reach out to us now to discover how the Àkàndé Voice Assistant can be the key to enhancing your productivity and efficiency."
 format-detection: "telephone=no"
 form-id: "xjvqprbg"
@@ -51,15 +51,15 @@ viewport: "width=device-width, initial-scale=1, shrink-to-fit=no"
 atom_link: https://akande.co/contact/rss.xml
 category: "Software, Static Site Generator, Rust"
 docs: "https://validator.w3.org/feed/docs/rss2.html"
-generator: "Shokunin 🦀 (version 0.0.23)"
+generator: "Shokunin SSG (version 0.0.26)"
 item_description: "Reach out to us now to discover how the Àkàndé Voice Assistant can be the key to enhancing your productivity and efficiency."
 item_guid: https://akande.co/contact/rss.xml
 item_link: https://akande.co/contact/rss.xml
-item_pub_date: "2024-02-12T06:06:06+01:00"
+item_pub_date: "Mon, 04 Mar 2024 06:06:06 +0100"
 item_title: "Àkàndé Voice Assistant Help and Support: Get in Touch!"
-last_build_date: "2024-02-12T06:06:06+01:00"
+last_build_date: "Mon, 04 Mar 2024 06:06:06 +0100"
 managing_editor: "contact@akande.co"
-pub_date: "2024-02-12T06:06:06+01:00"
+pub_date: "Mon, 04 Mar 2024 06:06:06 +0100"
 ttl: "60"
 type: "website"
 webmaster: "contact@akande.co"
@@ -98,9 +98,16 @@ author_website: "https://akande.co/contact/index.html"
 author_twitter: "@AkandeAI"
 author_location: "London, UK"
 thanks: "Thanks for reading!"
-site_last_updated: "2024-02-12"
+site_last_updated: "2024-03-04"
 site_standards: "HTML5, CSS3, RSS, Atom, JSON, XML, YAML, Markdown, TOML"
 site_components: "Shokunin SSG, Shokunin CLI, Shokunin Templates, Shokunin Themes, Kaishi SSG, Kaishi CLI, Kaishi Templates, Kaishi Themes"
 site_software: "Shokunin, Rust"
 
 ---
+
+## Get in Touch
+
+Want to know more about the Àkàndé Voice Assistant? Let’s connect! We’d love to hear from you.
+
+### Contact Form
+

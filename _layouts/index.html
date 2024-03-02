@@ -97,11 +97,11 @@ content="default-src 'self';
           height="{{logo_height}}"
           src="{{logo}}"
           alt="{{logo_alt}}"
-          title="{{logo_alt}}"
+          title="Logo of the {{logo_alt}}"
           loading="lazy"
         />
       </a>
-      <span itemprop="name"><a href="/" itemprop="url" title="{{name}} - {{description}}" class="fs-5 text-decoration-none">{{name}}</a></span>
+      <span itemprop="name">{{name}}</span>
       <button
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
@@ -138,7 +138,7 @@ content="default-src 'self';
                 >Company</a>
               <ul
                 class="dropdown-menu dropdown-menu-end border bg-white"
-                aria-labelledby="resourcesDropdown"
+                aria-labelledby="navbarDropdown"
               >
                 <li>
                   <a class="bg-transparent dropdown-item" href="/about/index.html">About us</a>
@@ -179,7 +179,7 @@ content="default-src 'self';
         loading="lazy"
         src="{{banner}}"
         style="object-fit: cover; z-index: -1;"
-        title="{{banner_alt}}"
+        title="Banner of {{banner_alt}}"
         width="{{banner_width}}"
       />
     </header>
@@ -188,15 +188,14 @@ content="default-src 'self';
     <!-- Main content-->
     <main id="main" aria-label="main" class="bd-masthead fs-4 p-5">
       <div class="text-center bg-dark text-light center mx-auto rounded rounded-3 p-5">
-        <p class="fs-1">{{name}}</p>
-        <p class="fs-3">{{subtitle}}</p>
+        <p class="text-white">{{subtitle}}</p>
       </div>
       <br />
       <div class="text-start bg-white text-dark mx-auto rounded rounded-3 py-0 p-5 justify-content-between">{{content}}</div>
       <div class="text-center bg-light text-dark mx-auto rounded rounded-3 p-5">
-        <img src="https://kura.pro/akande/images/logos/akande.webp" alt="Àkàndé Voice Assistant" title="Àkàndé Voice Assistant" width="200" height="200" />
-        <p class="fs-1">{{security_name}}</p>
-        <p class="fs-3">{{security_description}}</p>
+        <img src="https://kura.pro/akande/images/logos/akande.webp" alt="Àkàndé Voice Assistant" title="Logo of the Àkàndé Voice Assistant" width="200" height="200" />
+        <h2 class="fs-1">{{security_name}}</h2>
+        <h3 class="fs-3">{{security_description}}</h3>
       </div>
     </main>
 
@@ -218,7 +217,7 @@ content="default-src 'self';
         <div class="row">
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-            <h5 class="text-uppercase mb-4 text-light">About</h5>
+            <h4 class="fs-4 text-uppercase mb-4 text-light">About</h4>
             <ul class="list-unstyled mb-4">
               <li>
                 <a href="/about/index.html" class="text-white">About us</a>
@@ -235,7 +234,7 @@ content="default-src 'self';
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-            <h5 class="text-uppercase mb-4 text-light">Legal</h5>
+            <h4 class="fs-4 text-uppercase mb-4 text-light">Legal</h4>
             <ul class="list-unstyled">
               <li>
                 <a href="/accessibility/index.html" class="text-white">Accessibility</a>
@@ -252,7 +251,7 @@ content="default-src 'self';
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-            <h5 class="text-uppercase mb-4 text-light">Support</h5>
+            <h4 class="fs-4 text-uppercase mb-4 text-light">Support</h4>
 
             <ul class="list-unstyled">
               <li>
@@ -263,9 +262,9 @@ content="default-src 'self';
           <!--Grid column-->
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-            <h5 class="text-uppercase mb-4 text-light">Follow us</h5>
-            <span><a class="btn btn-floating" target="_blank" href="https://www.youtube.com/@AkandeAI"><img src="{{cdn}}/common/images/buttons/youtube-speech-bubble-21668.svg" alt="Àkàndé Voice Assistant YouTube Channel" title="Àkàndé Voice Assistant YouTube Channel" width="32" height="32" /></a></span>
-            <span><a class="btn btn-floating" target="_blank" href="https://twitter.com/AkandeAI"><img src="{{cdn}}/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="Àkàndé Voice Assistant Twitter Channel" title="Àkàndé Voice Assistant Twitter Channel" width="32" height="32" /></a></span>
+            <h4 class="fs-4 text-uppercase mb-4 text-light">Follow us</h4>
+            <span><a class="btn btn-floating" target="_blank" href="https://www.youtube.com/@AkandeAI"><img src="{{cdn}}/common/images/buttons/youtube-speech-bubble-21668.svg" alt="Àkàndé Voice Assistant YouTube Channel" title="Logo of the Àkàndé Voice Assistant YouTube Channel" width="32" height="32" /></a></span>
+            <span><a class="btn btn-floating" target="_blank" href="https://twitter.com/AkandeAI"><img src="{{cdn}}/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="Àkàndé Voice Assistant Twitter Channel" title="Logo of the Àkàndé Voice Assistant Twitter Channel" width="32" height="32" /></a></span>
           </div>
           <!--Grid column-->
         </div>
