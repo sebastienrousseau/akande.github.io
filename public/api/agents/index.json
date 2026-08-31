@@ -1,0 +1,21 @@
+{
+  "api": "ssg-agent-api",
+  "counts": {
+    "posts": 12,
+    "topics": 77
+  },
+  "links": {
+    "index": "https://akande.ai/api/agents/index.json",
+    "person": "https://akande.ai/api/agents/person.json",
+    "posts": "https://akande.ai/api/agents/posts.json",
+    "topics": "https://akande.ai/api/agents/topics.json"
+  },
+  "site": {
+    "description": "Àkàndé is seamlessly integrated into your digital life, offering a convenient way to interact with technology.",
+    "language": "en-GB",
+    "name": "Àkàndé",
+    "title": "Àkàndé: Advanced AI Voice Assistant for All",
+    "url": "https://akande.ai"
+  },
+  "version": "0.0.56"
+}

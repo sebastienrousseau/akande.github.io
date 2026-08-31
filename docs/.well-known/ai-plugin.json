@@ -1,0 +1,18 @@
+{
+  "api": {
+    "is_user_authenticated": false,
+    "type": "openapi",
+    "url": "https://akande.ai/openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support@akande.ai",
+  "description_for_human": "Àkàndé is seamlessly integrated into your digital life, offering a convenient way to interact with technology.",
+  "description_for_model": "Àkàndé is seamlessly integrated into your digital life, offering a convenient way to interact with technology.",
+  "legal_info_url": "https://akande.ai/legal",
+  "logo_url": "https://akande.ai/favicon.ico",
+  "name_for_human": "Àkàndé: Advanced AI Voice Assistant for All",
+  "name_for_model": "knd",
+  "schema_version": "v1"
+}
