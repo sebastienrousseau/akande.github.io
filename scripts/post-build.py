@@ -8,7 +8,7 @@ def get_sri_hash(filepath):
     digest = hashlib.sha384(data).digest()
     return "sha384-" + base64.b64encode(digest).decode("ascii")
 
-clean_navbar = """  <!-- Responsive Navbar -->
+clean_navbar = '''  <!-- Responsive Navbar -->
   <nav class="navbar" aria-label="Main Navigation">
     <div class="navbar-container">
       <div class="navbar-header">
@@ -71,9 +71,9 @@ clean_navbar = """  <!-- Responsive Navbar -->
         </div>
       </div>
     </div>
-  </nav>"""
+  </nav>'''
 
-search_modal = """  <!-- Search Modal Dialog -->
+search_modal = '''  <!-- Search Modal Dialog -->
   <div id="searchModal" class="search-modal" role="dialog" aria-modal="true" aria-label="Site Search">
     <div class="search-backdrop"></div>
     <div class="search-dialog">
@@ -86,7 +86,7 @@ search_modal = """  <!-- Search Modal Dialog -->
         <div class="search-empty">Type to search...</div>
       </div>
     </div>
-  </div>"""
+  </div>'''
 
 # Ensure valid root main.js and styles.css exist
 with open(os.path.join(repo_dir, "main.js"), "r", errors="ignore") as f:
@@ -143,7 +143,7 @@ for folder in ["public", "docs"]:
                     htxt = htxt.replace('<head>', f'<head>\n  {csp_meta}')
 
                 # 1. Remove SSG Auto-injected search elements & broken CSP scripts
-                htxt = re.sub(r'<!-- SSG Search Widget -->.*?(?:</body>|$)', '</body>\n</html>', htxt, flags=re.DOTALL)
+                htxt = re.sub(r'<!-- SSG Search Widget -->.*', '', htxt, flags=re.DOTALL)
                 htxt = re.sub(r'<div id="ssg-search-widget"[^>]*>.*?</div>\s*</div>', '', htxt, flags=re.DOTALL)
                 htxt = re.sub(r'<div id="ssg-search-overlay"[^>]*>.*?</div>\s*</div>', '', htxt, flags=re.DOTALL)
                 htxt = re.sub(r'<script[^>]*src="/_csp/[^"]+"[^>]*>\s*</script>', '', htxt)
@@ -184,10 +184,16 @@ for folder in ["public", "docs"]:
                 elif '<nav class="navbar"' not in htxt and '<nav' in htxt:
                     htxt = re.sub(r'<nav\b[^>]*>.*?</nav>', clean_navbar, htxt, flags=re.DOTALL)
 
+                # 6. Ensure searchModal and script exist before closing body
                 if 'id="searchModal"' not in htxt:
-                    htxt = htxt.replace('</body>', f'{search_modal}\n<script src="/main.js" integrity="{main_js_hash}" defer></script>\n</body>')
+                    # Strip any trailing body/html tags first
+                    htxt = re.sub(r'(?:</body>\s*)*(?:</html>\s*)*$', '', htxt.strip(), flags=re.IGNORECASE)
+                    htxt += f'\n{search_modal}\n<script src="/main.js" integrity="{main_js_hash}" defer></script>\n</body>\n</html>\n'
+                else:
+                    htxt = re.sub(r'(?:</body>\s*)*(?:</html>\s*)*$', '', htxt.strip(), flags=re.IGNORECASE)
+                    htxt += '\n</body>\n</html>\n'
 
                 with open(fpath, "w", errors="ignore") as fp:
                     fp.write(htxt)
 
-print("Post-build optimization completed with uncorrupted main.js and no duplicate search buttons.")
+print("Post-build optimization completed with uncorrupted main.js and clean HTML closing tags.")

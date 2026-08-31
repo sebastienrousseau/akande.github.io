@@ -687,3 +687,156 @@ li.list-inline-item a:hover {
 #ssg-search-widget, #ssg-search-overlay {
   display: none !important;
 }
+
+/* ==========================================================================
+   Apple UK "Questions? Answers." Exact Accordion & FAQ System
+   ========================================================================== */
+.apple-faq-page {
+  width: 100%;
+  max-width: 58rem;
+  margin: 3.5rem auto 6rem;
+  padding: 0 1.5rem;
+}
+
+.apple-faq-wrapper {
+  width: 100%;
+}
+
+.apple-faq-title-main {
+  font-size: clamp(2.25rem, 5vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--text-headline);
+  margin-bottom: 2.5rem;
+}
+
+.apple-faq-topbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.apple-expand-all-btn {
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 0.875rem;
+  color: #0071e3;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+:root[data-theme-mode="dark"] .apple-expand-all-btn,
+:root:not([data-theme-mode="light"]) .apple-expand-all-btn {
+  color: #2997ff;
+}
+
+.apple-expand-all-btn:hover {
+  opacity: 0.85;
+}
+
+.apple-expand-all-btn:focus-visible {
+  outline: 2px solid #0071e3;
+  outline-offset: 2px;
+}
+
+.apple-faq-list-exact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--border-hairline);
+}
+
+.apple-faq-item-exact {
+  border-bottom: 1px solid var(--border-hairline);
+  list-style: none;
+}
+
+.apple-faq-item-exact details summary::-webkit-details-marker {
+  display: none;
+}
+
+.apple-faq-summary-exact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.75rem 0;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  outline: none;
+}
+
+.apple-faq-summary-exact:focus-visible {
+  outline: 2px solid #0071e3;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.apple-faq-q-text {
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--text-headline);
+  line-height: 1.3;
+  margin: 0;
+  padding-right: 1rem;
+}
+
+.apple-chevron-exact {
+  color: #86868b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.apple-faq-item-exact details[open] .apple-chevron-exact {
+  transform: rotate(180deg);
+}
+
+.apple-faq-body-exact {
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  animation: faqFadeIn 0.3s ease-out;
+}
+
+@keyframes faqFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.apple-faq-body-exact p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text-body);
+  margin-bottom: 1.25rem;
+}
+
+.apple-faq-link-exact {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 1rem;
+  color: #0071e3;
+  text-decoration: none;
+  font-weight: 400;
+  transition: opacity 0.2s ease;
+}
+
+:root[data-theme-mode="dark"] .apple-faq-link-exact,
+:root:not([data-theme-mode="light"]) .apple-faq-link-exact {
+  color: #2997ff;
+}
+
+.apple-faq-link-exact:hover {
+  text-decoration: underline;
+}
