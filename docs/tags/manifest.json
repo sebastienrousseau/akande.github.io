@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "Delve deeper into this website by exploring topics and tags, and get to the subjects that matter most to you.",
+  "description": "Browse topics and tags across the Àkàndé ecosystem.",
   "display": "standalone",
   "icons": [
     {
@@ -10,7 +10,7 @@
       "type": "image/svg+xml"
     }
   ],
-  "name": "Tags",
+  "name": "Àkàndé Voice Assistant",
   "orientation": "portrait-primary",
   "scope": "/",
   "short_name": "akande",

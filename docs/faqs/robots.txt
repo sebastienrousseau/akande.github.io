@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://akande.co/about/index.html/sitemap.xml
+Sitemap: https://akande.co/faqs/sitemap.xml

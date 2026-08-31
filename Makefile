@@ -7,7 +7,7 @@ all: build
 help:
 	@echo "Available Makefile targets:"
 	@echo "  make build      - Compile static site using Rust static-site-generator"
-	@echo "  make audit      - Run WCAG 2.2 AAA (Pa11y) and Lighthouse audits"
+	@echo "  make audit      - Run WCAG 2.2 AAA (Pa11y) and Master Quality Gate audits"
 	@echo "  make contrast   - Verify color tokens against WCAG 2.2 AAA math ratios"
 	@echo "  make validate   - Validate Markdown frontmatter schema integrity"
 	@echo "  make compress   - Pre-compress static output with Brotli, Zstd & Gzip"
@@ -16,17 +16,20 @@ help:
 
 build:
 	@if command -v ssg >/dev/null 2>&1; then \
-		ssg build --config config/ssg.json; \
+		ssg build --content _posts --template _layouts --output public; \
+	elif [ -x "$$HOME/.cargo/bin/ssg" ]; then \
+		"$$HOME/.cargo/bin/ssg" build --content _posts --template _layouts --output public; \
 	elif [ -f build.sh ]; then \
 		bash build.sh; \
-	else \
-		echo "Notice: Standard SSG layout ready. Run 'cargo install static-site-generator' to compile."; \
 	fi
+	@cp -R public/* docs/ 2>/dev/null || true
+	@/usr/bin/python3 scripts/post-build.py
 
 audit: contrast validate
 	@if command -v pa11y-ci >/dev/null 2>&1; then \
 		pa11y-ci --config .pa11yci; \
 	fi
+	@/usr/bin/python3 scripts/regression-test.py .
 
 contrast:
 	@/usr/bin/python3 scripts/audit-contrast.py

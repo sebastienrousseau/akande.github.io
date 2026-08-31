@@ -4,15 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>Frequently Asked Questions | Questions? Answers. | Àkàndé</title>
-  <meta name="description" content="Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.">
-  <meta name="keywords" content="Àkàndé FAQs, Questions and Answers, Voice AI Architecture, SQLite Caching, OpenAI GPT">
+  
   <meta name="author" content="The Àkàndé Voice Assistant Team">
+  <meta name="description" content="Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https://formspree.io; img-src 'self' data: https: https://cloudcdn.pro; style-src 'self' 'unsafe-inline'; font-src 'self'; form-action 'self' https://formspree.io;" />
-  <link rel="canonical" href="https://akande.co/faqs/index.html">
-  <link rel="stylesheet" href="/styles.css" integrity="sha384-llOhe8+rXm4s3M/N0oj2+TL739f4B++ilCeay/82krXjLkM5h/t68w8q5x2Z1pj7">
-  <link rel="icon" type="image/svg+xml" href="https://cloudcdn.pro/akande/v1/logos/akande.svg">
-  <link rel="manifest" href="/manifest.json">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net; connect-src 'self' https://formspree.io; img-src 'self' data: https: https://cloudcdn.pro; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src 'self'; form-action 'self' https://formspree.io;" />
   
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -20,190 +16,38 @@
   <meta property="og:locale" content="en_GB">
   <meta property="og:title" content="Frequently Asked Questions | Questions? Answers. | Àkàndé">
   <meta property="og:description" content="Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.">
-  <meta property="og:image" content="https://cloudcdn.pro/akande/v1/logos/akande.svg">
+  <meta property="og:image" content="https://cloudcdn.pro/stocks/images/akande-voice-assistant-multiple.webp">
   <meta property="og:url" content="https://akande.co/faqs/index.html">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Frequently Asked Questions | Questions? Answers. | Àkàndé">
   <meta name="twitter:description" content="Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.">
-  <meta name="twitter:image" content="https://cloudcdn.pro/akande/v1/logos/akande.svg">
+  <meta name="twitter:image" content="https://cloudcdn.pro/stocks/images/akande-voice-assistant-multiple.webp">
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "name": "Questions? Answers. | Àkàndé Voice Assistant",
-    "description": "Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.",
-    "url": "https://akande.co/faqs/index.html",
-    "inLanguage": "en-GB"
-  }
-  </script>
-
-  <style>
-    /* Exact Apple UK Business Questions? Answers. Layout (Matching Screenshot) */
-    .apple-faq-page {
-      background-color: var(--bg-canvas);
-      min-height: 80vh;
-      padding: 4rem 1.5rem 6rem;
-    }
-    .apple-faq-wrapper {
-      max-width: 980px;
-      margin: 0 auto;
-      width: 100%;
-    }
-    .apple-faq-title-main {
-      font-size: clamp(2.5rem, 5vw, 3.5rem) !important;
-      font-weight: 700 !important;
-      letter-spacing: -0.015em !important;
-      line-height: 1.1 !important;
-      color: var(--text-headline) !important;
-      margin: 0 0 2rem 0 !important;
-      text-align: left !important;
-    }
-    .apple-faq-topbar {
-      display: flex;
-      justify-content: flex-end;
-      margin-bottom: 1.25rem;
-    }
-    .apple-expand-all-btn {
-      background: transparent !important;
-      border: none !important;
-      box-shadow: none !important;
-      color: #0066cc !important;
-      font-size: 0.875rem !important;
-      font-weight: 400 !important;
-      cursor: pointer !important;
-      display: inline-flex !important;
-      align-items: center !important;
-      gap: 4px !important;
-      padding: 0 !important;
-      margin: 0 !important;
-      outline: none !important;
-    }
-    :root[data-theme-mode="dark"] .apple-expand-all-btn,
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme-mode="light"]) .apple-expand-all-btn {
-        color: #2997ff !important;
-      }
-    }
-    .apple-expand-all-btn:hover {
-      text-decoration: underline !important;
-    }
-    .apple-faq-list-exact {
-      list-style: none !important;
-      list-style-type: none !important;
-      margin: 0 !important;
-      padding: 0 !important;
-      border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
-    }
-    :root[data-theme-mode="dark"] .apple-faq-list-exact,
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme-mode="light"]) .apple-faq-list-exact {
-        border-top-color: rgba(255, 255, 255, 0.15) !important;
-      }
-    }
-    .apple-faq-item-exact {
-      list-style: none !important;
-      list-style-type: none !important;
-      margin: 0 !important;
-      padding: 0 !important;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
-    }
-    :root[data-theme-mode="dark"] .apple-faq-item-exact,
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme-mode="light"]) .apple-faq-item-exact {
-        border-bottom-color: rgba(255, 255, 255, 0.15) !important;
-      }
-    }
-    .apple-faq-item-exact details {
-      margin: 0 !important;
-      padding: 0 !important;
-      border: none !important;
-      background: transparent !important;
-    }
-    .apple-faq-summary-exact {
-      list-style: none !important;
-      list-style-type: none !important;
-      display: flex !important;
-      align-items: center !important;
-      justify-content: space-between !important;
-      padding: 1.75rem 0 !important;
-      width: 100% !important;
-      cursor: pointer !important;
-      user-select: none !important;
-      outline: none !important;
-      gap: 1.5rem !important;
-      text-align: left !important;
-    }
-    .apple-faq-summary-exact::-webkit-details-marker,
-    .apple-faq-summary-exact::marker {
-      display: none !important;
-      content: "" !important;
-    }
-    .apple-faq-q-text {
-      font-size: clamp(1.2rem, 2.2vw, 1.45rem) !important;
-      font-weight: 600 !important;
-      letter-spacing: -0.015em !important;
-      line-height: 1.3 !important;
-      color: var(--text-headline) !important;
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-    .apple-chevron-exact {
-      flex-shrink: 0;
-      width: 20px;
-      height: 20px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      color: #86868b;
-      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    details[open] .apple-chevron-exact {
-      transform: rotate(180deg);
-    }
-    .apple-faq-body-exact {
-      padding: 0 0 2rem !important;
-      font-size: 1.0625rem !important;
-      line-height: 1.55 !important;
-      color: var(--text-muted) !important;
-      max-width: 820px !important;
-    }
-    .apple-faq-body-exact p {
-      margin-bottom: 0.75rem !important;
-    }
-    .apple-faq-body-exact p:last-child {
-      margin-bottom: 0 !important;
-    }
-    .apple-faq-link-exact {
-      margin-top: 0.85rem !important;
-      display: inline-flex !important;
-      align-items: center !important;
-      gap: 4px !important;
-      color: #0066cc !important;
-      text-decoration: none !important;
-      font-size: 1rem !important;
-    }
-    :root[data-theme-mode="dark"] .apple-faq-link-exact,
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme-mode="light"]) .apple-faq-link-exact {
-        color: #2997ff !important;
-      }
-    }
-    .apple-faq-link-exact:hover {
-      text-decoration: underline !important;
-    }
-  </style>
+  <link rel="alternate" href="https://akande.co/faqs/index.html" hreflang="en" />
+  
+  <link rel="icon" type="image/svg+xml" href="https://cloudcdn.pro/akande/v1/logos/akande.svg" />
+  <link rel="icon" type="image/x-icon" href="https://cloudcdn.pro/akande/v1/logos/akande.svg" sizes="16x16 32x32" />
+  <link rel="apple-touch-icon" href="https://cloudcdn.pro/cmn/v1/icons/192x192.png" sizes="192x192" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="http://127.0.0.1:8000/atom.xml"/>
+  <link rel="alternate" type="application/feed+json" title="JSON Feed" href="http://127.0.0.1:8000/feed.json"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The Àkàndé Voice Assistant Team"},"description":"Questions? Answers. Expand all What is &Agrave;k&agrave;nd&eacute;? &Agrave;k&agrave;nd&eacute; is an innovative voice assistant engineered to boost","image":{"@type":"ImageObject","url":"https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"},"inLanguage":"en-GB","name":"Frequently Asked Questions | Questions? Answers. | Àkàndé","url":"http://127.0.0.1:8000/faqs/index.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"http://127.0.0.1:8000/","name":"Home","position":1},{"@type":"ListItem","item":"http://127.0.0.1:8000/faqs","name":"faqs","position":2}]}</script>
+<link rel="canonical" href="http://127.0.0.1:8000/faqs/"><link rel="sbom" type="application/vnd.cyclonedx+json" href="/sbom.cdx.json">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
+
   <!-- Responsive Navbar -->
   <nav class="navbar" aria-label="Main Navigation">
     <div class="navbar-container">
       <div class="navbar-header">
         <a class="navbar-brand" href="/" aria-label="Àkàndé Homepage">
-          <img src="https://cloudcdn.pro/akande/v1/logos/akande.svg" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" />
+          <img src="https://cloudcdn.pro/akande/v1/logos/akande.svg" alt="Àkàndé Logo" width="32" height="32" class="d-inline-block" />
           <span class="navbar-brand-text">Àkàndé Voice Assistant</span>
         </a>
 
@@ -282,7 +126,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">What is Àkàndé?</h2>
+              <h2 class="apple-faq-q-text">What is &Agrave;k&agrave;nd&eacute;?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -290,7 +134,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Àkàndé is an innovative voice assistant engineered to boost productivity and simplify tasks. It excels in natural language understanding and response generation, using Python and OpenAI's GPT models. Features like PDF summary generation and a smart caching mechanism set it apart, making it a powerful tool for enhancing digital workflows.</p>
+              <p>&Agrave;k&agrave;nd&eacute; is an innovative voice assistant engineered to boost productivity and simplify tasks. It excels in natural language understanding and response generation, using Python and OpenAI's GPT models. Features like PDF summary generation and a smart caching mechanism set it apart, making it a powerful tool for enhancing digital workflows.</p>
               <a href="/features/index.html" class="apple-faq-link-exact">Explore all features ❯</a>
             </div>
           </details>
@@ -298,7 +142,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">How does Àkàndé's natural language understanding work?</h2>
+              <h2 class="apple-faq-q-text">How does &Agrave;k&agrave;nd&eacute;'s natural language understanding work?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -306,7 +150,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Powered by OpenAI's GPT models, Àkàndé interprets human queries with remarkable accuracy. This advanced natural language understanding enables it to deliver relevant, contextually appropriate responses, facilitating more natural and meaningful interactions between humans and machines.</p>
+              <p>Powered by OpenAI's GPT models, &Agrave;k&agrave;nd&eacute; interprets human queries with remarkable accuracy. This advanced natural language understanding enables it to deliver relevant, contextually appropriate responses, facilitating more natural and meaningful interactions between humans and machines.</p>
               <a href="/about/index.html" class="apple-faq-link-exact">Learn about the architecture ❯</a>
             </div>
           </details>
@@ -322,7 +166,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Àkàndé's PDF summary generation feature allows users to create succinct summaries of their voice interactions. These summaries include a question header, the AI-generated response, and an accompanying logo, making it perfect for documenting meeting decisions or compiling notes efficiently.</p>
+              <p>&Agrave;k&agrave;nd&eacute;'s PDF summary generation feature allows users to create succinct summaries of their voice interactions. These summaries include a question header, the AI-generated response, and an accompanying logo, making it perfect for documenting meeting decisions or compiling notes efficiently.</p>
               <a href="/features/index.html" class="apple-faq-link-exact">See document generation ❯</a>
             </div>
           </details>
@@ -330,7 +174,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">Can Àkàndé store and retrieve past queries and responses?</h2>
+              <h2 class="apple-faq-q-text">Can &Agrave;k&agrave;nd&eacute; store and retrieve past queries and responses?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -338,7 +182,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Yes, thanks to a sophisticated SQLite-based caching system, Àkàndé can store and recall past queries and responses. This capability enhances response times for repeated queries and decreases dependence on continuous API calls, leading to quicker and more efficient interactions.</p>
+              <p>Yes, thanks to a sophisticated SQLite-based caching system, &Agrave;k&agrave;nd&eacute; can store and recall past queries and responses. This capability enhances response times for repeated queries and decreases dependence on continuous API calls, leading to quicker and more efficient interactions.</p>
               <a href="/made-with-ssg/index.html" class="apple-faq-link-exact">View technology stack ❯</a>
             </div>
           </details>
@@ -346,7 +190,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">What are some applications of Àkàndé?</h2>
+              <h2 class="apple-faq-q-text">What are some applications of &Agrave;k&agrave;nd&eacute;?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -354,7 +198,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Àkàndé is incredibly versatile, suitable for both personal and professional contexts. It aids in managing schedules, setting reminders, conducting research, and facilitating decision-making processes. Its proficiency in handling complex queries and generating human-like responses makes it an indispensable tool across various tasks.</p>
+              <p>&Agrave;k&agrave;nd&eacute; is incredibly versatile, suitable for both personal and professional contexts. It aids in managing schedules, setting reminders, conducting research, and facilitating decision-making processes. Its proficiency in handling complex queries and generating human-like responses makes it an indispensable tool across various tasks.</p>
               <a href="/features/index.html" class="apple-faq-link-exact">Explore use cases ❯</a>
             </div>
           </details>
@@ -362,15 +206,15 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">What can I do with Àkàndé?</h2>
+              <h2 class="apple-faq-q-text">What can I do with &Agrave;k&agrave;nd&eacute;?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
+                  <path d="m3.75 6.75 5.25 5.25-5.25"/>
                 </svg>
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>With Àkàndé, you can harness the power of advanced AI to enhance your productivity and streamline your tasks. Use it to manage your schedule, set reminders, perform in-depth research, and facilitate decision-making with ease. Àkàndé's versatility makes it perfect for summarizing meetings, generating reports, and even understanding and executing complex commands.</p>
+              <p>With &Agrave;k&agrave;nd&eacute;, you can harness the power of advanced AI to enhance your productivity and streamline your tasks. Use it to manage your schedule, set reminders, perform in-depth research, and facilitate decision-making with ease. &Agrave;k&agrave;nd&eacute;'s versatility makes it perfect for summarizing meetings, generating reports, and even understanding and executing complex commands.</p>
               <a href="/about/index.html" class="apple-faq-link-exact">Discover capabilities ❯</a>
             </div>
           </details>
@@ -378,7 +222,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">How do I use Àkàndé?</h2>
+              <h2 class="apple-faq-q-text">How do I use &Agrave;k&agrave;nd&eacute;?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -386,7 +230,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Using Àkàndé is straightforward and intuitive, designed for ease of interaction through voice commands. Start by activating Àkàndé with a simple voice command or click, then speak your query or command clearly. Àkàndé processes your input using advanced natural language understanding, allowing you to ask questions, command tasks, or request summaries.</p>
+              <p>Using &Agrave;k&agrave;nd&eacute; is straightforward and intuitive, designed for ease of interaction through voice commands. Start by activating &Agrave;k&agrave;nd&eacute; with a simple voice command or click, then speak your query or command clearly. &Agrave;k&agrave;nd&eacute; processes your input using advanced natural language understanding, allowing you to ask questions, command tasks, or request summaries.</p>
               <a href="/contact/index.html" class="apple-faq-link-exact">Get developer support ❯</a>
             </div>
           </details>
@@ -394,7 +238,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">How does Àkàndé ensure user privacy and data security?</h2>
+              <h2 class="apple-faq-q-text">How does &Agrave;k&agrave;nd&eacute; ensure user privacy and data security?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -402,7 +246,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Àkàndé prioritizes user privacy and data security by employing advanced data handling and encryption methods. It uses secure API key validation and processes data on-device to ensure your information stays private and secure. These measures prevent unauthorized access and ensure that your interactions with Àkàndé are not linked to your personal identity.</p>
+              <p>&Agrave;k&agrave;nd&eacute; prioritizes user privacy and data security by employing advanced data handling and encryption methods. It uses secure API key validation and processes data on-device to ensure your information stays private and secure. These measures prevent unauthorized access and ensure that your interactions with &Agrave;k&agrave;nd&eacute; are not linked to your personal identity.</p>
               <a href="/privacy/index.html" class="apple-faq-link-exact">Read Privacy Policy ❯</a>
             </div>
           </details>
@@ -410,7 +254,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">What makes Àkàndé's PDF summary generation unique?</h2>
+              <h2 class="apple-faq-q-text">What makes &Agrave;k&agrave;nd&eacute;'s PDF summary generation unique?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -418,7 +262,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Àkàndé's PDF summary generation stands out by offering customizability and incorporating unique branding elements like logos. Unlike standard voice assistant summarizations, it allows for personalized summary formats, including detailed headers and contextual responses, making it an invaluable tool for both personal record-keeping and professional documentation.</p>
+              <p>&Agrave;k&agrave;nd&eacute;'s PDF summary generation stands out by offering customizability and incorporating unique branding elements like logos. Unlike standard voice assistant summarizations, it allows for personalized summary formats, including detailed headers and contextual responses, making it an invaluable tool for both personal record-keeping and professional documentation.</p>
               <a href="/features/index.html" class="apple-faq-link-exact">View PDF capabilities ❯</a>
             </div>
           </details>
@@ -426,7 +270,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">How can developers customize Àkàndé for their specific needs?</h2>
+              <h2 class="apple-faq-q-text">How can developers customize &Agrave;k&agrave;nd&eacute; for their specific needs?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -434,7 +278,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Developers can tailor Àkàndé through environment variables for configuration, such as adjusting the default model, cache size, and expiration parameters. This flexibility ensures Àkàndé can be adapted to various applications, enhancing functionality and user experience in bespoke environments.</p>
+              <p>Developers can tailor &Agrave;k&agrave;nd&eacute; through environment variables for configuration, such as adjusting the default model, cache size, and expiration parameters. This flexibility ensures &Agrave;k&agrave;nd&eacute; can be adapted to various applications, enhancing functionality and user experience in bespoke environments.</p>
               <a href="/about/index.html" class="apple-faq-link-exact">Read developer docs ❯</a>
             </div>
           </details>
@@ -442,7 +286,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">What languages and accents does Àkàndé support?</h2>
+              <h2 class="apple-faq-q-text">What languages and accents does &Agrave;k&agrave;nd&eacute; support?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -450,7 +294,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Àkàndé is designed to support a wide range of languages and accents, offering broad accessibility and understanding. This capability ensures users from various linguistic backgrounds can interact with Àkàndé seamlessly, making it a versatile tool for global use.</p>
+              <p>&Agrave;k&agrave;nd&eacute; is designed to support a wide range of languages and accents, offering broad accessibility and understanding. This capability ensures users from various linguistic backgrounds can interact with &Agrave;k&agrave;nd&eacute; seamlessly, making it a versatile tool for global use.</p>
               <a href="/features/index.html" class="apple-faq-link-exact">View language support ❯</a>
             </div>
           </details>
@@ -458,7 +302,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">How to integrate Àkàndé with other applications or services?</h2>
+              <h2 class="apple-faq-q-text">How to integrate &Agrave;k&agrave;nd&eacute; with other applications or services?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -466,7 +310,7 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Àkàndé offers API integrations for seamless connectivity with various applications and services. Users can leverage Àkàndé's capabilities within their existing digital ecosystem, enhancing workflows and productivity across platforms like calendar apps, email services, and productivity tools.</p>
+              <p>&Agrave;k&agrave;nd&eacute; offers API integrations for seamless connectivity with various applications and services. Users can leverage &Agrave;k&agrave;nd&eacute;'s capabilities within their existing digital ecosystem, enhancing workflows and productivity across platforms like calendar apps, email services, and productivity tools.</p>
               <a href="/contact/index.html" class="apple-faq-link-exact">Request API access ❯</a>
             </div>
           </details>
@@ -474,7 +318,7 @@
         <li class="apple-faq-item-exact">
           <details>
             <summary class="apple-faq-summary-exact">
-              <h2 class="apple-faq-q-text">Is Àkàndé accessible for users with disabilities?</h2>
+              <h2 class="apple-faq-q-text">Is &Agrave;k&agrave;nd&eacute; accessible for users with disabilities?</h2>
               <span class="apple-chevron-exact" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
@@ -482,12 +326,11 @@
               </span>
             </summary>
             <div class="apple-faq-body-exact">
-              <p>Àkàndé is committed to inclusivity, featuring voice commands and text-to-speech functionalities to accommodate users with visual or hearing impairments. These accessibility features ensure that Àkàndé can be used by a wide audience, promoting an inclusive user experience.</p>
+              <p>&Agrave;k&agrave;nd&eacute; is committed to inclusivity, featuring voice commands and text-to-speech functionalities to accommodate users with visual or hearing impairments. These accessibility features ensure that &Agrave;k&agrave;nd&eacute; can be used by a wide audience, promoting an inclusive user experience.</p>
               <a href="/accessibility/index.html" class="apple-faq-link-exact">View Accessibility Statement ❯</a>
             </div>
           </details>
         </li>
-
         </ul>
       </div>
     </div>
@@ -503,7 +346,7 @@
     <div class="container-xxl">
       <div class="row g-4">
         <div class="col-lg-3 col-md-6">
-          <h3 class="h5 fw-bold mb-3">About</h3>
+          <h2 class="h5 fw-bold mb-3">About</h2>
           <ul class="list-unstyled d-flex flex-column gap-2">
             <li><a href="/about/index.html">About us</a></li>
             <li><a href="/faqs/index.html">Frequently Asked Questions</a></li>
@@ -511,7 +354,7 @@
           </ul>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h3 class="h5 fw-bold mb-3">Legal</h3>
+          <h2 class="h5 fw-bold mb-3">Legal</h2>
           <ul class="list-unstyled d-flex flex-column gap-2">
             <li><a href="/accessibility/index.html">Accessibility</a></li>
             <li><a href="/terms/index.html">Terms of use</a></li>
@@ -519,25 +362,25 @@
           </ul>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h3 class="h5 fw-bold mb-3">Support</h3>
+          <h2 class="h5 fw-bold mb-3">Support</h2>
           <ul class="list-unstyled d-flex flex-column gap-2">
             <li><a href="/contact/index.html">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h3 class="h5 fw-bold mb-3">Follow Us</h3>
+          <h2 class="h5 fw-bold mb-3">Follow Us</h2>
           <div class="d-flex gap-3">
             <a href="https://www.youtube.com/@AkandeAI" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)">
-              <img src="https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg" alt="" aria-hidden="true" width="32" height="32" />
+              <img src="https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg" alt="YouTube" width="32" height="32" />
             </a>
             <a href="https://twitter.com/AkandeAI" target="_blank" rel="noopener" aria-label="Twitter (opens in a new tab)">
-              <img src="https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="" aria-hidden="true" width="32" height="32" />
+              <img src="https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="Twitter" width="32" height="32" />
             </a>
           </div>
         </div>
       </div>
       <div class="text-center pt-4 mt-4 border-top text-muted" style="border-color:var(--border-hairline) !important;">
-        &copy; 2024 - 2026 &Agrave;k&agrave;nd&eacute; Voice Assistant. All rights reserved. Released under dual Apache-2.0 and MIT licensing.
+        © 2024 - 2026 Àkàndé Voice Assistant. All rights reserved.
       </div>
     </div>
   </footer>
@@ -556,6 +399,31 @@
       </div>
     </div>
   </div>
-  <script src="/main.js" defer integrity="sha384-Zu3IbheWr2/nJvNwfI3kv0pS9CMVbLXHC9q16dchCADB9H4+ZsAU58HGg1kxxmH/"></script>
+
+  <script src="/main.4eed22b6.js" integrity="sha384-swFRL9Viw6ocGhEc9aRyQfNrGLTQJCqW3aiOlVT1W8WSRhSTwXAA92O7vbfv/2lz" crossorigin="anonymous" defer></script>
+
+<!-- SSG Search Widget -->
+<div id="ssg-search-widget">
+<link rel="stylesheet" href="/_csp/ab0ff800df72e7d4.css" integrity="sha384-5/lyYdum7VUqasmpxZRYN9CrkRVxSizBemRDvsbiNqMKv2LpzAGqYf1RVnJOlg3X" crossorigin="anonymous">
+<!-- Search trigger button -->
+<button id="ssg-search-btn" type="button" aria-label="Search">
+<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+<span>Search</span>
+<kbd>K</kbd>
+</button>
+<!-- Search modal -->
+<div id="ssg-search-overlay" role="dialog" aria-label="Search">
+<div id="ssg-search-box">
+<div id="ssg-search-header">
+<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+<input id="ssg-search-input" type="search" placeholder="Search documentation..." autocomplete="off" aria-label="Search"/>
+</div>
+<div id="ssg-search-results" aria-live="polite"></div>
+<div id="ssg-sr-status" role="status" aria-live="polite" aria-atomic="true"></div>
+<div class="ssg-search-footer"><span><kbd>Esc</kbd> close</span><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> navigate</span><span><kbd>Enter</kbd> open</span></div>
+</div>
+</div>
+<script src="/_csp/61bc2fae7f71ccad.js" integrity="sha384-0oRzEmXgr9FJ6ttOmzhFx2dsSPgkO2fWLDzcLRT0sq5M9fYUce/wBPOMY7XmqkLT" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>

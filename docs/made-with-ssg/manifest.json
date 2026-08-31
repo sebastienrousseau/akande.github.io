@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "The Static Site Generator (SSG) is a lightning-fast tool for Search Engine Optimisation (SEO) and compliance to Accessib",
+  "description": "Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box.",
   "display": "standalone",
   "icons": [
     {
@@ -10,7 +10,7 @@
       "type": "image/svg+xml"
     }
   ],
-  "name": "Website created with Static Site Generator (S",
+  "name": "Àkàndé Voice Assistant",
   "orientation": "portrait-primary",
   "scope": "/",
   "short_name": "akande",

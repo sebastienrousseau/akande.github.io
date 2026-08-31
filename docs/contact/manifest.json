@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "Reach out to us now to discover how the Àkàndé Voice Assistant can be the key to enhancing your productivity and efficie",
+  "description": "Get in touch with the Àkàndé Voice Assistant team for enterprise support, integration assistance, and developer inquirie",
   "display": "standalone",
   "icons": [
     {
@@ -10,7 +10,7 @@
       "type": "image/svg+xml"
     }
   ],
-  "name": "Contact us",
+  "name": "Àkàndé Voice Assistant",
   "orientation": "portrait-primary",
   "scope": "/",
   "short_name": "akande",

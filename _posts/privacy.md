@@ -3,60 +3,61 @@
 # Front Matter (YAML)
 
 author: "The Àkàndé Voice Assistant Team"
-banner_alt: "A blurry image of a ball of light in the dark"
+banner_alt: "Àkàndé privacy and encryption pure white hardware."
 banner_height: "100vh"
 banner_width: "100vw"
 banner: "https://cloudcdn.pro/stocks/images/akande-voice-assistant-pure.webp"
 cdn: "https://cloudcdn.pro"
 changefreq: "weekly"
-charset: "UTF-8"
-cname: ""
+charset: "utf-8"
+cname: "akande.co"
 copyright: "© 2024 - 2026 Àkàndé Voice Assistant. All rights reserved."
 date: "Mar 04, 2024"
-description: "This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Website"
+description: "Official privacy policy for Àkàndé: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights."
+download_url: ""
+download_title: ""
 format-detection: "telephone=no"
-form-id: ""
+hero_description: "Official privacy policy for Àkàndé: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights."
 hreflang: "en"
 icon: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 id: "https://akande.co/privacy/index.html"
-image_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
+image_alt: "Logo of Àkàndé Voice Assistant."
 image_height: "100vh"
 image_width: "100vw"
 image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
-keywords: "Privacy Statement, personal data protection, no cookies policy, no personal information collection, use of Google Analytics, use of Microsoft Clarity, user behaviour analytics, website traffic monitoring, user data rights, privacy policy updates."
+keywords: "Àkàndé, Voice Assistant, Python AI, GPT Integration, Privacy, Accessibility"
 language: "en-GB"
-layout: "link"
+layout: "page"
 locale: "en_GB"
-logo_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
+logo_alt: "Logo of Àkàndé Voice Assistant."
 logo_height: "44"
 logo_width: "44"
 logo: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 menu: "active"
-measurementID: "G-3JTFJ56QVQ"
-name: "Privacy Policy"
-permalink: "https://akande.co/privacy/index.html"
+name: "Àkàndé Voice Assistant"
+permalink: "https://akande.co/privacy/"
 rating: "general"
 referrer: "no-referrer"
 revisit-after: "7 days"
 robots: "index, follow"
 short_name: "akande"
-subtitle: "Your privacy is important to us."
-tags: "privacy, personal data, tracking tools, Google Analytics, Microsoft Clarity, user behaviour analytics, mouse movements, clicks, scrolls, rights, contact"
-theme-color: "0, 0, 0"
-title: "Àkàndé Voice Assistant Privacy: How We Use Your Data"
+subtitle: "Official privacy policy for Àkàndé: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights."
+tags: "AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility"
+theme-color: "0, 86, 179"
+title: "Privacy Policy | Àkàndé Voice Assistant"
 url: "https://akande.co/privacy/index.html"
 viewport: "width=device-width, initial-scale=1, shrink-to-fit=no"
 
-# RSS - The RSS feed front matter (YAML).
-atom_link: "https://akande.co/privacy/rss.xml"
-category: "Technology"
+# RSS Feed Front Matter
+atom_link: "https://akande.co/rss.xml"
+category: "AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility"
 docs: "https://validator.w3.org/feed/docs/rss2.html"
-generator: "Static Site Generator (SSG) (version 0.0.26)"
-item_description: RSS feed for the site
-item_guid: "https://akande.co/privacy/rss.xml"
-item_link: "https://akande.co/privacy/rss.xml"
+generator: "Static Site Generator (SSG) (version 0.0.56)"
+item_description: "Official privacy policy for Àkàndé: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights."
+item_guid: "https://akande.co/rss.xml"
+item_link: "https://akande.co/rss.xml"
 item_pub_date: "Mon, 04 Mar 2024 06:06:06 +0100"
-item_title: "Àkàndé Voice Assistant Privacy: How We Use Your Data"
+item_title: "Privacy Policy | Àkàndé Voice Assistant"
 last_build_date: "Mon, 04 Mar 2024 06:06:06 +0100"
 managing_editor: "contact@akande.co"
 pub_date: "Mon, 04 Mar 2024 06:06:06 +0100"
@@ -64,69 +65,51 @@ ttl: "60"
 type: "website"
 webmaster: "contact@akande.co"
 
-# Apple - The Apple front matter (YAML).
+# Apple Front Matter
 apple_mobile_web_app_orientations: "portrait"
 apple_touch_icon_sizes: "192x192"
 apple-mobile-web-app-capable: "yes"
 apple-mobile-web-app-status-bar-inset: "black"
 apple-mobile-web-app-status-bar-style: "black-translucent"
-apple-mobile-web-app-title: "Àkàndé Voice Assistant Privacy: How We Use Your Data"
+apple-mobile-web-app-title: "Àkàndé Voice Assistant"
 apple-touch-fullscreen: "yes"
 
-# MS Application - The MS Application front matter (YAML).
+# MS Application
+msapplication-config: "https://akande.co/browserconfig.xml"
+msapplication-tap-highlight: "no"
+msapplication-TileColor: "0, 86, 179"
+msapplication_tile_image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 
-msapplication-navbutton-color: "0, 0, 0"
-
-# Twitter Card - The Twitter Card front matter (YAML).
-
-twitter_card: "summary"
+# Twitter Card
+twitter_card: "summary_large_image"
 twitter_creator: "@AkandeAI"
-twitter_description: "This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Website"
-twitter_image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
-twitter_image_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
+twitter_description: "Official privacy policy for Àkàndé: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights."
+twitter_image: "https://cloudcdn.pro/stocks/images/akande-voice-assistant-pure.webp"
+twitter_image_alt: "Àkàndé privacy and encryption pure white hardware."
 twitter_site: "@AkandeAI"
-twitter_title: "Àkàndé Voice Assistant Privacy: How We Use Your Data"
+twitter_title: "Privacy Policy | Àkàndé Voice Assistant"
 twitter_url: "https://akande.co/privacy/index.html"
 
-# Humans.txt - The Humans.txt front matter (YAML).
-author_website: "https://akande.co/privacy/index.html"
+# Humans.txt
+author_website: "https://akande.co/"
 author_twitter: "@AkandeAI"
 author_location: "London, UK"
 thanks: "Thanks for reading!"
-site_last_updated: "2024-03-04"
+site_last_updated: "2026-09-01"
 site_standards: "HTML5, CSS3, RSS, Atom, JSON, XML, YAML, Markdown, TOML"
-site_components: "Static Site Generator (SSG), Static Site Generator CLI, Static Site Generator Templates, Static Site Generator Themes, Kaishi SSG, Kaishi CLI, Kaishi Templates, Kaishi Themes"
+site_components: "Static Site Generator (SSG), Static Site Generator CLI, Kaishi Templates"
 site_software: "Static Site Generator, Rust"
 
 ---
 
-## Information Collection and Use
+## 1. Zero-Tracking Architecture
 
-We do not directly collect any personal data from you while you navigate our website. We do not use cookies for logic or save any personal information from a user.
+Àkàndé operates under strict privacy by design: we do not collect personal tracking metrics, we do not utilize advertising pixels, and we do not sell data. Local storage is strictly limited to your preferred theme mode (light/dark).
 
-## Use of Tracking Tools
+## 2. Data Subject Rights (UK & EU GDPR)
 
-We use two third-party services to monitor and analyze web traffic: Google Analytics and Microsoft Clarity.
+Under UK GDPR, EU GDPR 2016/679, and the Data Protection Act 2018, you maintain statutory rights of access, rectification, erasure, and data portability. To exercise these rights, submit an inquiry via our [Contact Form](/contact/index.html).
 
-### Google Analytics
+## 3. Security Standards
 
-Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Website. This data is shared with other Google services. For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [Google Privacy & Terms ⧉](https://policies.google.com/privacy)
-
-### Microsoft Clarity
-
-Microsoft Clarity is a user behavior analytics tool that helps us understand how users interact with our website. The data collected includes information such as mouse movements, clicks, and scrolls. For more information on the privacy practices of Microsoft, please visit the Microsoft Privacy Statement web page: [Microsoft Privacy Statement ⧉](https://privacy.microsoft.com/en-us/privacystatement)
-
-## Your Rights
-
-Depending on where you reside, you may have certain rights with respect to your personal data, such as the right to request access, correction, or deletion of your data, or to object to our use of your data.
-
-## Changes to This Privacy Policy
-
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
-
-We advise you to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
-
-## Contact Us
-
-If you have any questions about this Privacy Policy, please
-[contact our support team](mailto:contact@akande.com).
+All interactions utilize TLS 1.3 encryption, Subresource Integrity (SRI) SHA-384 cryptographic hashing, and Content Security Policies to protect against client-side injection.
