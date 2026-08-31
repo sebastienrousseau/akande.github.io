@@ -1,14 +1,14 @@
 {
-  "public/404/index.html": 15665007654870034377,
-  "public/about/index.html": 3141874022844663893,
-  "public/accessibility/index.html": 13813340544242052954,
-  "public/contact/index.html": 11981649998651266138,
+  "public/404/index.html": 10398562255940365555,
+  "public/about/index.html": 1689217758757449079,
+  "public/accessibility/index.html": 7158941182151347160,
+  "public/contact/index.html": 14278243035139356368,
   "public/faqs/index.html": 13480299450953890697,
-  "public/features/index.html": 12689793460334274463,
+  "public/features/index.html": 2868955343305856717,
   "public/index.html": 10389733856389833586,
-  "public/made-with-ssg/index.html": 1370441644426902483,
-  "public/offline/index.html": 12970996258183865289,
-  "public/privacy/index.html": 10031902590036146739,
+  "public/made-with-ssg/index.html": 1460413942429867389,
+  "public/offline/index.html": 9980070742307409199,
+  "public/privacy/index.html": 9863714522132370589,
   "public/tags/accessibility/index.html": 4198346574734367114,
   "public/tags/ai/index.html": 16914016173969154642,
   "public/tags/gpt/index.html": 15966305375319824276,
@@ -17,6 +17,6 @@
   "public/tags/python/index.html": 9556786101966966858,
   "public/tags/sqlite/index.html": 307093230740992594,
   "public/tags/voice-assistant/index.html": 12357698188826179214,
-  "public/terms/index.html": 11944391815432553329,
-  "public/thanks/index.html": 7869509513945242002
+  "public/terms/index.html": 9245249819785437995,
+  "public/thanks/index.html": 601133122010313492
 }

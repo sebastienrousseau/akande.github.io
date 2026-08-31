@@ -840,3 +840,46 @@ li.list-inline-item a:hover {
 .apple-faq-link-exact:hover {
   text-decoration: underline;
 }
+
+/* ==========================================================================
+   Page Banner Styling
+   ========================================================================== */
+.page-banner-wrap {
+  width: 100%;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-hairline);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-banner-img {
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+
+/* Ensure SVG graphic and text banners are fully visible without cropping */
+.page-banner-img[src$=".svg"],
+.page-banner-wrap img[src$=".svg"],
+img[src*="banner-static-site-generator"] {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 380px !important;
+  object-fit: contain !important;
+  background-color: #ffffff;
+  padding: 1.5rem 1.5rem;
+}
+
+:root[data-theme-mode="dark"] .page-banner-img[src$=".svg"],
+:root[data-theme-mode="dark"] .page-banner-wrap img[src$=".svg"],
+:root:not([data-theme-mode="light"]) img[src*="banner-static-site-generator"] {
+  background-color: #111827;
+}
