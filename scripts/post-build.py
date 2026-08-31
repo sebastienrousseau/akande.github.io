@@ -88,11 +88,24 @@ search_modal = """  <!-- Search Modal Dialog -->
     </div>
   </div>"""
 
+# Ensure valid root main.js and styles.css exist
+with open(os.path.join(repo_dir, "main.js"), "r", errors="ignore") as f:
+    master_js = f.read()
+
+with open(os.path.join(repo_dir, "styles.css"), "r", errors="ignore") as f:
+    master_css = f.read()
+
 for folder in ["public", "docs"]:
     f_dir = os.path.join(repo_dir, folder)
     if not os.path.isdir(f_dir): continue
 
-    # 1. Clean search index of utility pages
+    # Always keep valid uncorrupted main.js and styles.css
+    with open(os.path.join(f_dir, "main.js"), "w", errors="ignore") as f:
+        f.write(master_js)
+    with open(os.path.join(f_dir, "styles.css"), "w", errors="ignore") as f:
+        f.write(master_css)
+
+    # Clean search index of utility pages
     s_index_path = os.path.join(f_dir, "search-index.json")
     if os.path.isfile(s_index_path):
         try:
@@ -109,19 +122,13 @@ for folder in ["public", "docs"]:
         except Exception:
             pass
 
-    # 2. SRI hashes
-    file_hashes = {}
-    for h_root, _, h_files in os.walk(f_dir):
-        for hf in h_files:
-            if hf.endswith((".js", ".css")):
-                fp_h = os.path.join(h_root, hf)
-                rel_u = "/" + os.path.relpath(fp_h, f_dir).replace("\\", "/")
-                file_hashes[rel_u] = get_sri_hash(fp_h)
-                file_hashes[hf] = file_hashes[rel_u]
+    # Compute SRI hashes for canonical assets
+    main_js_hash = get_sri_hash(os.path.join(f_dir, "main.js"))
+    styles_css_hash = get_sri_hash(os.path.join(f_dir, "styles.css"))
 
-    # 3. Post-process all html pages
+    # Post-process all html pages
     for root, dirs, files in os.walk(f_dir):
-        dirs[:] = [d for d in dirs if d not in ["_layouts", "templates", "source", "target", "node_modules", ".git", ".github", ".lighthouseci", "dashboard"]]
+        dirs[:] = [d for d in dirs if d not in ["_layouts", "templates", "source", "target", "node_modules", ".git", ".github", ".lighthouseci", "dashboard", "_csp"]]
         for f in files:
             if f.endswith(".html"):
                 fpath = os.path.join(root, f)
@@ -135,7 +142,14 @@ for folder in ["public", "docs"]:
                 else:
                     htxt = htxt.replace('<head>', f'<head>\n  {csp_meta}')
 
-                # Strip any escaped HTML container tags completely
+                # 1. Remove SSG Auto-injected search elements & broken CSP scripts
+                htxt = re.sub(r'<!-- SSG Search Widget -->.*?(?:</body>|$)', '</body>\n</html>', htxt, flags=re.DOTALL)
+                htxt = re.sub(r'<div id="ssg-search-widget"[^>]*>.*?</div>\s*</div>', '', htxt, flags=re.DOTALL)
+                htxt = re.sub(r'<div id="ssg-search-overlay"[^>]*>.*?</div>\s*</div>', '', htxt, flags=re.DOTALL)
+                htxt = re.sub(r'<script[^>]*src="/_csp/[^"]+"[^>]*>\s*</script>', '', htxt)
+                htxt = re.sub(r'<link[^>]*href="/_csp/[^"]+"[^>]*>', '', htxt)
+
+                # 2. Strip any escaped HTML container tags completely
                 htxt = re.sub(r'&lt;div\b.*?&gt;', '', htxt)
                 htxt = re.sub(r'&lt;/div&gt;', '', htxt)
                 htxt = re.sub(r'&lt;h([1-6])\b.*?&gt;', r'<h\1>', htxt)
@@ -149,43 +163,31 @@ for folder in ["public", "docs"]:
                 htxt = re.sub(r'&lt;img\b.*?&gt;', '', htxt)
                 htxt = re.sub(r'&lt;meta\b.*?&gt;', '', htxt)
 
-                # Fix JSON-LD description entity leaks
+                # 3. Fix JSON-LD description entity leaks
                 def clean_json_ld(m):
                     j_txt = m.group(1)
                     j_txt = re.sub(r'&lt;.*', '', j_txt)
                     return f'<script type="application/ld+json">{j_txt}</script>'
                 htxt = re.sub(r'<script type="application/ld\+json">(.*?)</script>', clean_json_ld, htxt, flags=re.DOTALL)
 
-                # Ensure navbar and search modal exist on tag pages
+                # 4. Canonicalize main.js and styles.css tags
+                htxt = re.sub(r'<script[^>]*src="/main(?:\.[0-9a-f]+)?\.js"[^>]*>\s*</script>', 
+                              f'<script src="/main.js" integrity="{main_js_hash}" defer></script>', 
+                              htxt)
+                htxt = re.sub(r'<link[^>]*href="/styles(?:\.[0-9a-f]+)?\.css"[^>]*>', 
+                              f'<link rel="stylesheet" href="/styles.css" integrity="{styles_css_hash}">', 
+                              htxt)
+
+                # 5. Ensure single navbar and search modal exist
                 if '<nav class="navbar"' not in htxt and '<nav' not in htxt:
                     htxt = re.sub(r'<body[^>]*>', r'\g<0>\n' + clean_navbar, htxt)
                 elif '<nav class="navbar"' not in htxt and '<nav' in htxt:
                     htxt = re.sub(r'<nav\b[^>]*>.*?</nav>', clean_navbar, htxt, flags=re.DOTALL)
 
                 if 'id="searchModal"' not in htxt:
-                    htxt = htxt.replace('</body>', f'{search_modal}\n</body>')
-
-                # Fix SRI tags
-                def fix_sri(m):
-                    tag = m.group(0)
-                    src_m = re.search(r'(?:src|href)="([^"]+)"', tag)
-                    if not src_m: return tag
-                    src = src_m.group(1)
-                    if src.startswith("http://") or src.startswith("https://"): return tag
-                    clean_s = "/" + src.lstrip("/")
-                    sri = file_hashes.get(clean_s) or file_hashes.get(os.path.basename(clean_s))
-                    if sri:
-                        if "integrity=" in tag:
-                            tag = re.sub(r'integrity="[^"]*"', f'integrity="{sri}"', tag)
-                        else:
-                            tag = tag.replace('>', f' integrity="{sri}">')
-                    else:
-                        tag = re.sub(r'\s+integrity="[^"]*"', '', tag)
-                    return tag
-
-                htxt = re.sub(r'<(?:script|link)\b[^>]*(?:src|href)="[^"]+"[^>]*>', fix_sri, htxt)
+                    htxt = htxt.replace('</body>', f'{search_modal}\n<script src="/main.js" integrity="{main_js_hash}" defer></script>\n</body>')
 
                 with open(fpath, "w", errors="ignore") as fp:
                     fp.write(htxt)
 
-print("Post-build optimization completed.")
+print("Post-build optimization completed with uncorrupted main.js and no duplicate search buttons.")
