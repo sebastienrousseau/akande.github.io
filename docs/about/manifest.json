@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "Discover Àkàndé, the AI-powered voice assistant transforming personal and executive tasks with unparalleled efficiency a",
+  "description": "Discover Àkàndé, the AI-powered voice assistant transforming personal and executive workflows with Python and OpenAI GPT",
   "display": "standalone",
   "icons": [
     {
@@ -10,7 +10,7 @@
       "type": "image/svg+xml"
     }
   ],
-  "name": "About Àkàndé",
+  "name": "Àkàndé Voice Assistant",
   "orientation": "portrait-primary",
   "scope": "/",
   "short_name": "akande",

@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "This statement explains the accessibility of our website, what we are doing to address it, and how to contact us about w",
+  "description": "Comprehensive accessibility statement for Àkàndé: WCAG 2.2 AA / AAA conformance, keyboard navigability, and screen reade",
   "display": "standalone",
   "icons": [
     {
@@ -10,7 +10,7 @@
       "type": "image/svg+xml"
     }
   ],
-  "name": "Accessibility Statement",
+  "name": "Àkàndé Voice Assistant",
   "orientation": "portrait-primary",
   "scope": "/",
   "short_name": "akande",

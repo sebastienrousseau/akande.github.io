@@ -1,0 +1,16 @@
+{
+  "name": "\u00c0k\u00e0nd\u00e9 Voice Assistant",
+  "short_name": "\u00c0k\u00e0nd\u00e9",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "\u00c0k\u00e0nd\u00e9: High Performance AI-Powered Voice Assistant",
+  "icons": [
+    {
+      "src": "https://cloudcdn.pro/akande/v1/logos/akande.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

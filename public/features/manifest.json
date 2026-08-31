@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "Explore the groundbreaking features of Àkàndé, the AI voice assistant revolutionising personal and executive assistance ",
+  "description": "Explore the advanced capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and In",
   "display": "standalone",
   "icons": [
     {
@@ -10,7 +10,7 @@
       "type": "image/svg+xml"
     }
   ],
-  "name": "About Àkàndé",
+  "name": "Àkàndé Voice Assistant",
   "orientation": "portrait-primary",
   "scope": "/",
   "short_name": "akande",

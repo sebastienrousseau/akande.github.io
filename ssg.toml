@@ -1,13 +1,14 @@
-# Generated site-level configuration for akande.github.io
-site_name = "Àkàndé"
-site_title = "Àkàndé: Advanced AI Voice Assistant for All"
-site_description = "Àkàndé is seamlessly integrated into your digital life, offering a convenient way to interact with technology."
-base_url = "https://akande.ai"
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+# Semantic Version: v0.0.1
+site_name = "Àkàndé Voice Assistant"
+site_title = "Àkàndé Voice Assistant: Executive AI & Productivity"
+site_description = "Zero-JavaScript static documentation and platform for Àkàndé, conforming strictly to WCAG 2.2 Level AAA."
+base_url = "https://akande.co"
 language = "en-GB"
 
 content_dir = "_posts"
 template_dir = "_layouts"
-output_dir = "docs"
+output_dir = "public"
 
 [agents]
 agents_txt = true
@@ -18,3 +19,6 @@ enabled = true
 
 [edge_headers]
 targets = ["netlify", "cloudflare", "vercel"]
+
+[security]
+sri_algorithm = "sha384"

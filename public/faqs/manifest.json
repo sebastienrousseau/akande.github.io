@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "Discover how Àkàndé Voice Assistant uses advanced AI to streamline tasks, generate PDF summaries, and offer superior int",
+  "description": "Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.",
   "display": "standalone",
   "icons": [
     {
@@ -10,7 +10,7 @@
       "type": "image/svg+xml"
     }
   ],
-  "name": "Unlocking Àkàndé's Potential",
+  "name": "Àkàndé Voice Assistant",
   "orientation": "portrait-primary",
   "scope": "/",
   "short_name": "akande",

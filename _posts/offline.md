@@ -3,61 +3,61 @@
 # Front Matter (YAML)
 
 author: "The Àkàndé Voice Assistant Team"
-banner_alt: "A white, spherical modern device."
+banner_alt: "Offline mode banner."
 banner_height: "100vh"
 banner_width: "100vw"
-banner: "https://cloudcdn.pro/stocks/images/akande-voice-assistant-pure.webp"
+banner: "https://cloudcdn.pro/stocks/images/akande-voice-assistant-simple.webp"
 cdn: "https://cloudcdn.pro"
 changefreq: "weekly"
-charset: "UTF-8"
-cname: ""
+charset: "utf-8"
+cname: "akande.co"
 copyright: "© 2024 - 2026 Àkàndé Voice Assistant. All rights reserved."
 date: "Mar 04, 2024"
-description: "I apologise for the inconvenience. To continue, please connect to a Wi-Fi network or enable cellular data"
+description: "You are currently browsing offline."
+download_url: ""
+download_title: ""
 format-detection: "telephone=no"
-form-id: ""
+hero_description: "You are currently browsing offline."
 hreflang: "en"
 icon: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
-id: "https://akande.co/offline/index.html"
-image_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
+id: "https://akande.co/offline.html"
+image_alt: "Logo of Àkàndé Voice Assistant."
 image_height: "100vh"
 image_width: "100vw"
 image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
-keywords: "offline, connection, error, unable to connect"
+keywords: "Àkàndé, Voice Assistant, Python AI, GPT Integration, Privacy, Accessibility"
 language: "en-GB"
-layout: "link"
+layout: "offline"
 locale: "en_GB"
-logo_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
+logo_alt: "Logo of Àkàndé Voice Assistant."
 logo_height: "44"
 logo_width: "44"
 logo: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 menu: "active"
-measurementID: "G-3JTFJ56QVQ"
-name: "Oops, you're offline!"
-permalink: "https://akande.co/offline/index.html"
+name: "Àkàndé Voice Assistant"
+permalink: "https://akande.co/offline.html"
 rating: "general"
 referrer: "no-referrer"
 revisit-after: "7 days"
-robots: "index, follow"
+robots: "noindex, nofollow"
 short_name: "akande"
-subtitle: "Check your connection and try again."
-tags: ""
-theme-color: "0, 0, 0"
-title: "No Internet Connection detected. Please try again later."
-url: "https://akande.co/offline/index.html"
+subtitle: "You are currently browsing offline."
+tags: "AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility"
+theme-color: "0, 86, 179"
+title: "Offline Mode | Àkàndé Voice Assistant"
+url: "https://akande.co/offline.html"
 viewport: "width=device-width, initial-scale=1, shrink-to-fit=no"
 
-# RSS - The RSS feed front matter (YAML).
-
-atom_link: "https://akande.co/offline/rss.xml"
-category: "Technology"
+# RSS Feed Front Matter
+atom_link: "https://akande.co/rss.xml"
+category: "AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility"
 docs: "https://validator.w3.org/feed/docs/rss2.html"
-generator: "Static Site Generator (SSG) (version 0.0.26)"
-item_description: "I apologise for the inconvenience. To continue, please connect to a Wi-Fi network or enable cellular data"
-item_guid: "https://akande.co/offline/rss.xml"
-item_link: "https://akande.co/offline/rss.xml"
+generator: "Static Site Generator (SSG) (version 0.0.56)"
+item_description: "You are currently browsing offline."
+item_guid: "https://akande.co/rss.xml"
+item_link: "https://akande.co/rss.xml"
 item_pub_date: "Mon, 04 Mar 2024 06:06:06 +0100"
-item_title: "RSS"
+item_title: "Offline Mode | Àkàndé Voice Assistant"
 last_build_date: "Mon, 04 Mar 2024 06:06:06 +0100"
 managing_editor: "contact@akande.co"
 pub_date: "Mon, 04 Mar 2024 06:06:06 +0100"
@@ -65,50 +65,45 @@ ttl: "60"
 type: "website"
 webmaster: "contact@akande.co"
 
-# Apple - The Apple front matter (YAML).
-
+# Apple Front Matter
 apple_mobile_web_app_orientations: "portrait"
 apple_touch_icon_sizes: "192x192"
 apple-mobile-web-app-capable: "yes"
 apple-mobile-web-app-status-bar-inset: "black"
 apple-mobile-web-app-status-bar-style: "black-translucent"
-apple-mobile-web-app-title: "No Internet Connection detected. Please try again later."
+apple-mobile-web-app-title: "Àkàndé Voice Assistant"
 apple-touch-fullscreen: "yes"
 
-# MS Application - The MS Application front matter (YAML).
+# MS Application
+msapplication-config: "https://akande.co/browserconfig.xml"
+msapplication-tap-highlight: "no"
+msapplication-TileColor: "0, 86, 179"
+msapplication_tile_image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 
-msapplication-navbutton-color: "0, 0, 0"
-
-# Twitter Card - The Twitter Card front matter (YAML).
-
-twitter_card: "summary"
+# Twitter Card
+twitter_card: "summary_large_image"
 twitter_creator: "@AkandeAI"
-twitter_description: "I apologise for the inconvenience. To continue, please connect to a Wi-Fi network or enable cellular data"
-twitter_image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
-twitter_image_alt: "Logo of Àkàndé Voice Assistant, A Personal and Executive Assistance"
+twitter_description: "You are currently browsing offline."
+twitter_image: "https://cloudcdn.pro/stocks/images/akande-voice-assistant-simple.webp"
+twitter_image_alt: "Offline mode banner."
 twitter_site: "@AkandeAI"
-twitter_title: "No Internet Connection detected. Please try again later."
-twitter_url: "https://akande.co/offline/index.html"
+twitter_title: "Offline Mode | Àkàndé Voice Assistant"
+twitter_url: "https://akande.co/offline.html"
 
-# Humans.txt - The Humans.txt front matter (YAML).
-
-author_website: "https://akande.co/offline/index.html"
+# Humans.txt
+author_website: "https://akande.co/"
 author_twitter: "@AkandeAI"
 author_location: "London, UK"
 thanks: "Thanks for reading!"
-site_last_updated: "2024-03-04"
+site_last_updated: "2026-09-01"
 site_standards: "HTML5, CSS3, RSS, Atom, JSON, XML, YAML, Markdown, TOML"
-site_components: "Static Site Generator (SSG), Static Site Generator CLI, Static Site Generator Templates, Static Site Generator Themes, Kaishi SSG, Kaishi CLI, Kaishi Templates, Kaishi Themes"
+site_components: "Static Site Generator (SSG), Static Site Generator CLI, Kaishi Templates"
 site_software: "Static Site Generator, Rust"
 
 ---
 
-Try:
+## Offline Mode
 
-- Checking for any security settings that could be blocking the connection.
-- Checking the cables and connections.
-- Checking the signal in your area.
-- Clearing your browser's cache and cookies.
-- Resetting your modem or router.
-- Restarting your router.
-- Turning off airplane mode.
+You are currently disconnected from the internet. Cached content remains available.
+
+[Return to Homepage ❯](/)

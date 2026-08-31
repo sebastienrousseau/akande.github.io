@@ -1,5 +1,5 @@
-# Àkàndé
+# MySsgSite
 
-> Àkàndé is seamlessly integrated into your digital life, offering a convenient way to interact with technology.
+> A site built with SSG
 
 Language: en-GB
