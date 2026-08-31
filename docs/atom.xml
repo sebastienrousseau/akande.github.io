@@ -11,7 +11,7 @@
     <id>http://127.0.0.1:8000/404/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
-    <summary>The page you are looking for does not exist.</summary>
+    <summary>The requested page could not be located.</summary>
     <author><name>The Àkàndé Voice Assistant Team</name></author>
   </entry>
   <entry>
@@ -20,7 +20,7 @@
     <id>http://127.0.0.1:8000/about/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
-    <summary>Discover Àkàndé, the AI-powered voice assistant transforming personal and executive workflows with Python and OpenAI GPT integration.</summary>
+    <summary>Discover the vision, open-source architecture, and engineering principles driving Àkàndé Voice Assistant.</summary>
     <author><name>The Àkàndé Voice Assistant Team</name></author>
   </entry>
   <entry>
@@ -29,7 +29,7 @@
     <id>http://127.0.0.1:8000/accessibility/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
-    <summary>Comprehensive accessibility statement for Àkàndé: WCAG 2.2 AA / AAA conformance, keyboard navigability, and screen reader verification.</summary>
+    <summary>Comprehensive accessibility statement for Àkàndé: WCAG 2.2 Level AA / AAA conformance, keyboard navigability, and assistive technology verification.</summary>
     <author><name>The Àkàndé Voice Assistant Team</name></author>
   </entry>
   <entry>
@@ -47,7 +47,7 @@
     <id>http://127.0.0.1:8000/faqs/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
-    <summary>Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.</summary>
+    <summary>Find authoritative answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.</summary>
     <author><name>The Àkàndé Voice Assistant Team</name></author>
   </entry>
   <entry>
@@ -56,7 +56,7 @@
     <id>http://127.0.0.1:8000/features/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
-    <summary>Explore the advanced capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.</summary>
+    <summary>Explore the cutting-edge capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.</summary>
     <author><name>The Àkàndé Voice Assistant Team</name></author>
   </entry>
   <entry>
@@ -65,7 +65,7 @@
     <id>http://127.0.0.1:8000/made-with-ssg/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
-    <summary>Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box.</summary>
+    <summary>Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Generator.</summary>
     <author><name>The Àkàndé Voice Assistant Team</name></author>
   </entry>
   <entry>
@@ -74,7 +74,7 @@
     <id>http://127.0.0.1:8000/offline/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
-    <summary>You are currently browsing offline.</summary>
+    <summary>You are currently browsing in offline mode.</summary>
     <author><name>The Àkàndé Voice Assistant Team</name></author>
   </entry>
   <entry>
@@ -92,7 +92,7 @@
     <id>http://127.0.0.1:8000/tags/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
-    <summary>Browse topics and tags across the Àkàndé ecosystem.</summary>
+    <summary>Explore the topic directory and tag taxonomy for Àkàndé Voice Assistant architecture, capabilities, and documentation.</summary>
     <author><name>The Àkàndé Voice Assistant Team</name></author>
   </entry>
   <entry>

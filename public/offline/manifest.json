@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "You are currently browsing offline.",
+  "description": "You are currently browsing in offline mode.",
   "display": "standalone",
   "icons": [
     {
