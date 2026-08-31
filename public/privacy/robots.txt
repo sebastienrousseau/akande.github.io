@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://akande.co/privacy/index.html/sitemap.xml

@@ -1,0 +1,255 @@
+{
+  "AI": [
+    "https://akande.ai/about/",
+    "https://akande.ai/faqs/",
+    "https://akande.ai/features/",
+    "https://akande.ai/index.html"
+  ],
+  "Caching": [
+    "https://akande.ai/faqs/",
+    "https://akande.ai/index.html"
+  ],
+  "GPT": [
+    "https://akande.ai/index.html"
+  ],
+  "Google Analytics": [
+    "https://akande.ai/privacy/"
+  ],
+  "Microsoft Clarity": [
+    "https://akande.ai/privacy/"
+  ],
+  "NLU": [
+    "https://akande.ai/index.html"
+  ],
+  "Natural Language": [
+    "https://akande.ai/faqs/"
+  ],
+  "OpenAI": [
+    "https://akande.ai/about/",
+    "https://akande.ai/features/",
+    "https://akande.ai/index.html"
+  ],
+  "OpenAI GPT": [
+    "https://akande.ai/faqs/"
+  ],
+  "PDF": [
+    "https://akande.ai/index.html"
+  ],
+  "PDF Summary": [
+    "https://akande.ai/faqs/"
+  ],
+  "Productivity": [
+    "https://akande.ai/faqs/"
+  ],
+  "Python": [
+    "https://akande.ai/about/",
+    "https://akande.ai/faqs/",
+    "https://akande.ai/features/"
+  ],
+  "SEO": [
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "SQLite": [
+    "https://akande.ai/index.html"
+  ],
+  "Speech Recognition": [
+    "https://akande.ai/index.html"
+  ],
+  "Static Site Generator (SSG)": [
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "Technology": [
+    "https://akande.ai/faqs/"
+  ],
+  "Text-to-Speech": [
+    "https://akande.ai/index.html"
+  ],
+  "Voice Assistant": [
+    "https://akande.ai/faqs/",
+    "https://akande.ai/index.html"
+  ],
+  "accessibility": [
+    "https://akande.ai/accessibility/",
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "ada": [
+    "https://akande.ai/accessibility/"
+  ],
+  "agreement": [
+    "https://akande.ai/terms/"
+  ],
+  "assistive-tech": [
+    "https://akande.ai/accessibility/"
+  ],
+  "builder": [
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "clicks": [
+    "https://akande.ai/privacy/"
+  ],
+  "color-blindness": [
+    "https://akande.ai/accessibility/"
+  ],
+  "communication": [
+    "https://akande.ai/about/"
+  ],
+  "compliance": [
+    "https://akande.ai/accessibility/"
+  ],
+  "contact": [
+    "https://akande.ai/privacy/",
+    "https://akande.ai/thanks/"
+  ],
+  "copyright": [
+    "https://akande.ai/terms/"
+  ],
+  "delve deeper": [
+    "https://akande.ai/tags/"
+  ],
+  "design": [
+    "https://akande.ai/accessibility/"
+  ],
+  "easy": [
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "executive": [
+    "https://akande.ai/about/",
+    "https://akande.ai/features/"
+  ],
+  "explore by tag": [
+    "https://akande.ai/tags/"
+  ],
+  "explore topics": [
+    "https://akande.ai/tags/"
+  ],
+  "fast": [
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "features": [
+    "https://akande.ai/features/"
+  ],
+  "free": [
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "get to the subjects": [
+    "https://akande.ai/tags/"
+  ],
+  "help": [
+    "https://akande.ai/thanks/"
+  ],
+  "inclusivity": [
+    "https://akande.ai/accessibility/"
+  ],
+  "innovation": [
+    "https://akande.ai/about/",
+    "https://akande.ai/features/"
+  ],
+  "intellectual property": [
+    "https://akande.ai/terms/"
+  ],
+  "liability": [
+    "https://akande.ai/terms/"
+  ],
+  "limitation": [
+    "https://akande.ai/terms/"
+  ],
+  "links": [
+    "https://akande.ai/terms/"
+  ],
+  "matter most": [
+    "https://akande.ai/tags/"
+  ],
+  "mouse movements": [
+    "https://akande.ai/privacy/"
+  ],
+  "personal data": [
+    "https://akande.ai/privacy/"
+  ],
+  "privacy": [
+    "https://akande.ai/privacy/",
+    "https://akande.ai/terms/"
+  ],
+  "productivity": [
+    "https://akande.ai/about/",
+    "https://akande.ai/features/"
+  ],
+  "reliable": [
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "rights": [
+    "https://akande.ai/privacy/"
+  ],
+  "screen-reader": [
+    "https://akande.ai/accessibility/"
+  ],
+  "scrolls": [
+    "https://akande.ai/privacy/"
+  ],
+  "secure": [
+    "https://akande.ai/made-with-ssg/"
+  ],
+  "support": [
+    "https://akande.ai/thanks/"
+  ],
+  "technology": [
+    "https://akande.ai/about/",
+    "https://akande.ai/features/"
+  ],
+  "terms": [
+    "https://akande.ai/terms/"
+  ],
+  "tracking tools": [
+    "https://akande.ai/privacy/"
+  ],
+  "trademark": [
+    "https://akande.ai/terms/"
+  ],
+  "usability": [
+    "https://akande.ai/accessibility/"
+  ],
+  "use": [
+    "https://akande.ai/terms/"
+  ],
+  "user behaviour analytics": [
+    "https://akande.ai/privacy/"
+  ],
+  "ux": [
+    "https://akande.ai/accessibility/"
+  ],
+  "voice assistant": [
+    "https://akande.ai/about/",
+    "https://akande.ai/features/"
+  ],
+  "wcag": [
+    "https://akande.ai/accessibility/"
+  ],
+  "web-design": [
+    "https://akande.ai/accessibility/"
+  ],
+  "website": [
+    "https://akande.ai/made-with-ssg/",
+    "https://akande.ai/tags/",
+    "https://akande.ai/terms/"
+  ],
+  "website content": [
+    "https://akande.ai/tags/"
+  ],
+  "website navigation": [
+    "https://akande.ai/tags/"
+  ],
+  "website search": [
+    "https://akande.ai/tags/"
+  ],
+  "website tags": [
+    "https://akande.ai/tags/"
+  ],
+  "website topics": [
+    "https://akande.ai/tags/"
+  ],
+  "Àkàndé": [
+    "https://akande.ai/about/",
+    "https://akande.ai/faqs/",
+    "https://akande.ai/features/",
+    "https://akande.ai/index.html"
+  ]
+}

@@ -1,0 +1,20 @@
+# Generated site-level configuration for akande.github.io
+site_name = "Àkàndé"
+site_title = "Àkàndé: Advanced AI Voice Assistant for All"
+site_description = "Àkàndé is seamlessly integrated into your digital life, offering a convenient way to interact with technology."
+base_url = "https://akande.ai"
+language = "en-GB"
+
+content_dir = "_posts"
+template_dir = "_layouts"
+output_dir = "docs"
+
+[agents]
+agents_txt = true
+ai_plugin = true
+
+[agents.mcp]
+enabled = true
+
+[edge_headers]
+targets = ["netlify", "cloudflare", "vercel"]

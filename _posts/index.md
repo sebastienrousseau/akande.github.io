@@ -6,12 +6,12 @@ author: "The Àkàndé Voice Assistant Team"
 banner_alt: "A white, spherical modern device."
 banner_height: "100vh"
 banner_width: "100vw"
-banner: "https://kura.pro/stock/images/banners/akande-voice-assistant.webp"
-cdn: "https://kura.pro"
+banner: "https://cloudcdn.pro/stocks/images/akande-voice-assistant.webp"
+cdn: "https://cloudcdn.pro"
 changefreq: "weekly"
 charset: "utf-8"
 cname: "akande.co"
-copyright: "© 2024 Àkàndé Voice Assistant. All rights reserved."
+copyright: "© 2024 - 2026 Àkàndé Voice Assistant. All rights reserved."
 date: "Mar 04, 2024"
 description: "Discover Àkàndé, an advanced voice assistant using OpenAI's GPT for natural interactions, PDF summaries, & efficient caching for both personal & executive tasks"
 download_url: ""
@@ -19,12 +19,12 @@ download_title: ""
 format-detection: "telephone=no"
 hero_description: "Discover Àkàndé, an advanced voice assistant using OpenAI's GPT for natural interactions, PDF summaries, & efficient caching for both personal & executive tasks"
 hreflang: "en"
-icon: "https://kura.pro/akande/images/favicon.ico"
+icon: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 id: "https://akande.co/index.html"
 image_alt: "Logo of Àkàndé Voice Assistant, Unlocking the Future of Finance."
 image_height: "100vh"
 image_width: "100vw"
-image: "https://kura.pro/akande/images/logos/akande.webp"
+image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 keywords: "Àkàndé, voice assistant, AI technology, OpenAI GPT, natural language understanding, PDF summaries, efficient caching, SQLite, speech recognition, text-to-speech, Python"
 language: "en-GB"
 layout: "index"
@@ -32,7 +32,7 @@ locale: "en_GB"
 logo_alt: "Logo of Àkàndé Voice Assistant, Unlocking the Future of Finance."
 logo_height: "44"
 logo_width: "44"
-logo: "https://kura.pro/akande/images/logos/akande.webp"
+logo: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 menu: "active"
 measurementID: "G-3JTFJ56QVQ"
 name: "Àkàndé Voice Assistant"
@@ -54,7 +54,7 @@ viewport: "width=device-width, initial-scale=1, shrink-to-fit=no"
 atom_link: "https://akande.co/rss.xml"
 category: "Àkàndé Voice Assistant, Quantum Computing in Finance, Quantum Risk Analysis, Quantum Cryptography in Banking, Quantum Key Distribution, Quantum-Resistant Cryptography, Quantum Banking, Future of Banking, Financial Industry Revolution, Quantum Computing Advancements, Quantum Computing Applications"
 docs: "https://validator.w3.org/feed/docs/rss2.html"
-generator: "Shokunin SSG (version 0.0.26)"
+generator: "Static Site Generator (SSG) (version 0.0.26)"
 item_description: "Discover Àkàndé, an advanced voice assistant using OpenAI's GPT for natural interactions, PDF summaries, & efficient caching for both personal & executive tasks"
 item_guid: "https://akande.co/rss.xml"
 item_link: "https://akande.co/rss.xml"
@@ -84,14 +84,14 @@ apple-touch-fullscreen: "yes"
 msapplication-config: "https://akande.co/browserconfig.xml"
 msapplication-tap-highlight: "no"
 msapplication-TileColor: "rgb(0, 0, 0)"
-msapplication_tile_image: "https://kura.pro/akande/images/logos/akande.webp"
+msapplication_tile_image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 
 # Twitter Card - The Twitter Card front matter (YAML).
 
 twitter_card: "summary"
 twitter_creator: "@AkandeAI"
 twitter_description: "Discover Àkàndé, an advanced voice assistant using OpenAI's GPT for natural interactions, PDF summaries, & efficient caching for both personal & executive tasks"
-twitter_image: "https://kura.pro/akande/images/logos/akande.webp"
+twitter_image: "https://cloudcdn.pro/akande/v1/logos/akande.svg"
 twitter_image_alt: "Logo of Àkàndé Voice Assistant, Unlocking the Future of Finance."
 twitter_site: "@AkandeAI"
 twitter_title: "Àkàndé: Advanced AI Voice Assistant for All"
@@ -105,22 +105,18 @@ author_location: "London, UK"
 thanks: "Thanks for reading!"
 site_last_updated: "2023-10-22"
 site_standards: "HTML5, CSS3, RSS, Atom, JSON, XML, YAML, Markdown, TOML"
-site_components: "Shokunin SSG, Shokunin CLI, Shokunin Templates, Kaishi Templates, Kaishi Themes"
-site_software: "Shokunin, Rust"
+site_components: "Static Site Generator (SSG), Static Site Generator CLI, Static Site Generator Templates, Kaishi Templates, Kaishi Themes"
+site_software: "Static Site Generator, Rust"
 
 ---
-
-![Àkàndé AI, Sample Quote on Tech Innovation](https://kura.pro/akande/images/promos/akande-promo.webp).class=\"fade-in w-50 m-3 p-3 float-start align-self-center img-thumbnail float-start\"
 
 Àkàndé is a cutting-edge voice assistant designed to enhance productivity and streamline interaction through advanced natural language understanding and response generation capabilities. Built with Python and leveraging OpenAI's GPT models, Àkàndé offers a unique combination of features such as efficient caching mechanisms for speedy response retrieval, and the innovative ability to generate PDF summaries of interactions, positioning it as an indispensable tool for both personal assistance and executive briefing purposes.
 
 In the rapidly evolving landscape of technology, voice assistants have become integral to our daily routines, offering unprecedented convenience and efficiency. Àkàndé sets itself apart as an advanced voice assistant, engineered with Python and leveraging the power of OpenAI's GPT models. It's designed to understand and generate human-like responses, making it a pioneering tool for both personal use and executive briefing.
 
-![divider][divider].class=\"m-10 w-100 mx-auto d-block\"
+<hr class="my-5" />.class=\"m-10 w-100 mx-auto d-block\"
 
 ## Complete daily tasks effortlessly using only your voice
-
-![Àkàndé's PDF summary feature](https://kura.pro/akande/images/promos/akande-promo-01.webp).class=\"fade-in w-50 m-3 p-3 float-start align-self-center img-thumbnail float-end\"
 
 Experience unmatched privacy with the smartest assistant, Àkàndé. Crafted for both personal and executive needs, it delivers human-like interactions, boosting productivity and simplifying tasks for all users. A cutting-edge tool for enhanced efficiency.
 
@@ -146,6 +142,6 @@ The applications of Àkàndé span across personal and professional realms. Its 
 
 Àkàndé represents a significant advancement in the field of voice-assisted technology. With its foundation in Python and integration of OpenAI's GPT models, it offers unparalleled natural language understanding, alongside innovative features like PDF summary generation and an efficient caching mechanism. As voice assistants continue to play a crucial role in our digital lives, Àkàndé stands out as a sophisticated solution designed to enhance productivity and simplify complex tasks for users across the board.
 
-![divider][divider].class=\"m-10 w-100 mx-auto d-block\"
+<hr class="my-5" />.class=\"m-10 w-100 mx-auto d-block\"
 
-[divider]: https://kura.pro/common/images/elements/divider.svg "Divider"
+[divider]: https://cloudcdn.pro/common/images/elements/divider.svg "Divider"

@@ -1,0 +1,267 @@
+{
+  "pages_scanned": 13,
+  "total_issues": 39,
+  "wcag_version": "2.2",
+  "pages": [
+    {
+      "path": "404/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "about/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "accessibility/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "contact/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "faqs/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "features/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "made-with-ssg/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "offline/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "privacy/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "tags/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "terms/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    },
+    {
+      "path": "thanks/index.html",
+      "issues": [
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/akande/v1/logos/akande.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg"
+        },
+        {
+          "criterion": "1.1.1",
+          "severity": "error",
+          "message": "<img> missing alt text: https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg"
+        }
+      ]
+    }
+  ]
+}
