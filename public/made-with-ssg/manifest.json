@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box.",
+  "description": "Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Gen",
   "display": "standalone",
   "icons": [
     {

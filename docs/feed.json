@@ -8,7 +8,7 @@
           "name": "The Àkàndé Voice Assistant Team"
         }
       ],
-      "content_html": "The page you are looking for does not exist.",
+      "content_html": "The requested page could not be located.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
       "id": "http://127.0.0.1:8000/404/",
@@ -31,7 +31,7 @@
           "name": "The Àkàndé Voice Assistant Team"
         }
       ],
-      "content_html": "Discover Àkàndé, the AI-powered voice assistant transforming personal and executive workflows with Python and OpenAI GPT integration.",
+      "content_html": "Discover the vision, open-source architecture, and engineering principles driving Àkàndé Voice Assistant.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
       "id": "http://127.0.0.1:8000/about/",
@@ -54,7 +54,7 @@
           "name": "The Àkàndé Voice Assistant Team"
         }
       ],
-      "content_html": "Comprehensive accessibility statement for Àkàndé: WCAG 2.2 AA / AAA conformance, keyboard navigability, and screen reader verification.",
+      "content_html": "Comprehensive accessibility statement for Àkàndé: WCAG 2.2 Level AA / AAA conformance, keyboard navigability, and assistive technology verification.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
       "id": "http://127.0.0.1:8000/accessibility/",
@@ -100,7 +100,7 @@
           "name": "The Àkàndé Voice Assistant Team"
         }
       ],
-      "content_html": "Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.",
+      "content_html": "Find authoritative answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
       "id": "http://127.0.0.1:8000/faqs/",
@@ -123,7 +123,7 @@
           "name": "The Àkàndé Voice Assistant Team"
         }
       ],
-      "content_html": "Explore the advanced capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.",
+      "content_html": "Explore the cutting-edge capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
       "id": "http://127.0.0.1:8000/features/",
@@ -146,7 +146,7 @@
           "name": "The Àkàndé Voice Assistant Team"
         }
       ],
-      "content_html": "Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box.",
+      "content_html": "Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Generator.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
       "id": "http://127.0.0.1:8000/made-with-ssg/",
@@ -169,7 +169,7 @@
           "name": "The Àkàndé Voice Assistant Team"
         }
       ],
-      "content_html": "You are currently browsing offline.",
+      "content_html": "You are currently browsing in offline mode.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
       "id": "http://127.0.0.1:8000/offline/",
@@ -215,7 +215,7 @@
           "name": "The Àkàndé Voice Assistant Team"
         }
       ],
-      "content_html": "Browse topics and tags across the Àkàndé ecosystem.",
+      "content_html": "Explore the topic directory and tag taxonomy for Àkàndé Voice Assistant architecture, capabilities, and documentation.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
       "id": "http://127.0.0.1:8000/tags/",

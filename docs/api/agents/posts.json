@@ -1,7 +1,7 @@
 [
   {
     "date": "Mar 04, 2024",
-    "description": "Discover Àkàndé, the AI-powered voice assistant transforming personal and executive workflows with Python and OpenAI GPT integration.",
+    "description": "Discover the vision, open-source architecture, and engineering principles driving Àkàndé Voice Assistant.",
     "locale": "en_GB",
     "tags": [
       "AI",
@@ -14,11 +14,11 @@
     ],
     "title": "About Àkàndé Voice Assistant: Mission & Architecture",
     "url": "http://127.0.0.1:8000/about/",
-    "wordCount": 73
+    "wordCount": 109
   },
   {
     "date": "Mar 04, 2024",
-    "description": "Comprehensive accessibility statement for Àkàndé: WCAG 2.2 AA / AAA conformance, keyboard navigability, and screen reader verification.",
+    "description": "Comprehensive accessibility statement for Àkàndé: WCAG 2.2 Level AA / AAA conformance, keyboard navigability, and assistive technology verification.",
     "locale": "en_GB",
     "tags": [
       "AI",
@@ -48,11 +48,11 @@
     ],
     "title": "Contact Us | Get in Touch with Àkàndé",
     "url": "http://127.0.0.1:8000/contact/",
-    "wordCount": 22
+    "wordCount": 18
   },
   {
     "date": "Mar 04, 2024",
-    "description": "Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.",
+    "description": "Find authoritative answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.",
     "locale": "en_GB",
     "tags": [
       "AI",
@@ -65,11 +65,11 @@
     ],
     "title": "Frequently Asked Questions | Questions? Answers. | Àkàndé",
     "url": "http://127.0.0.1:8000/faqs/",
-    "wordCount": 20
+    "wordCount": 23
   },
   {
     "date": "Mar 04, 2024",
-    "description": "Explore the advanced capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.",
+    "description": "Explore the cutting-edge capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.",
     "locale": "en_GB",
     "tags": [
       "AI",
@@ -82,11 +82,11 @@
     ],
     "title": "Key Features & Capabilities | Àkàndé Voice Assistant",
     "url": "http://127.0.0.1:8000/features/",
-    "wordCount": 81
+    "wordCount": 131
   },
   {
     "date": "Mar 04, 2024",
-    "description": "Discover Àkàndé, the AI-powered voice assistant transforming personal and executive tasks with unparalleled efficiency and adaptability.",
+    "description": "Discover Àkàndé, the premier AI voice assistant delivering executive-level intelligence, Python performance, and local-first privacy.",
     "locale": "en_GB",
     "tags": [
       "AI",
@@ -103,7 +103,7 @@
   },
   {
     "date": "Mar 04, 2024",
-    "description": "Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box.",
+    "description": "Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Generator.",
     "locale": "en_GB",
     "tags": [
       "AI",
@@ -120,7 +120,7 @@
   },
   {
     "date": "Mar 04, 2024",
-    "description": "You are currently browsing offline.",
+    "description": "You are currently browsing in offline mode.",
     "locale": "en_GB",
     "tags": [
       "AI",
@@ -133,7 +133,7 @@
     ],
     "title": "Offline Mode | Àkàndé Voice Assistant",
     "url": "http://127.0.0.1:8000/offline/",
-    "wordCount": 18
+    "wordCount": 17
   },
   {
     "date": "Mar 04, 2024",
@@ -154,7 +154,7 @@
   },
   {
     "date": "Mar 04, 2024",
-    "description": "Browse topics and tags across the Àkàndé ecosystem.",
+    "description": "Explore the topic directory and tag taxonomy for Àkàndé Voice Assistant architecture, capabilities, and documentation.",
     "locale": "en_GB",
     "tags": [
       "AI",
@@ -167,7 +167,7 @@
     ],
     "title": "Tag Index | Àkàndé Voice Assistant",
     "url": "http://127.0.0.1:8000/tags/",
-    "wordCount": 13
+    "wordCount": 16
   },
   {
     "date": "Mar 04, 2024",
@@ -201,6 +201,6 @@
     ],
     "title": "Thank You! | Àkàndé Voice Assistant",
     "url": "http://127.0.0.1:8000/thanks/",
-    "wordCount": 19
+    "wordCount": 23
   }
 ]

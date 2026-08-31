@@ -15,6 +15,7 @@ help:
 	@echo "  make clean      - Remove build artifacts and temporary files"
 
 build:
+	@rm -rf public docs/tags
 	@if command -v ssg >/dev/null 2>&1; then \
 		ssg build --content _posts --template _layouts --output public; \
 	elif [ -x "$$HOME/.cargo/bin/ssg" ]; then \

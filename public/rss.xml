@@ -3,7 +3,7 @@
   <channel>
     <title>Àkàndé Voice Assistant: Executive AI &amp; Productivity</title>
     <link>https://akande.co/</link>
-    <description>Discover Àkàndé, the AI-powered voice assistant transforming personal and executive tasks with unparalleled efficiency and adaptability.</description>
+    <description>Discover Àkàndé, the premier AI voice assistant delivering executive-level intelligence, Python performance, and local-first privacy.</description>
     <atom:link href="http://127.0.0.1:8000/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
     <lastBuildDate>Mon, 04 Mar 2024 06:06:06 +0100</lastBuildDate>
@@ -11,7 +11,7 @@
     <item>
       <title>404 Page Not Found | Àkàndé Voice Assistant</title>
       <link>http://127.0.0.1:8000/404/</link>
-      <description>The page you are looking for does not exist.</description>
+      <description>The requested page could not be located.</description>
       <guid isPermaLink="true">http://127.0.0.1:8000/404/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
@@ -28,7 +28,7 @@
     <item>
       <title>About Àkàndé Voice Assistant: Mission & Architecture</title>
       <link>http://127.0.0.1:8000/about/</link>
-      <description>Discover Àkàndé, the AI-powered voice assistant transforming personal and executive workflows with Python and OpenAI GPT integration.</description>
+      <description>Discover the vision, open-source architecture, and engineering principles driving Àkàndé Voice Assistant.</description>
       <guid isPermaLink="true">http://127.0.0.1:8000/about/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
@@ -45,11 +45,11 @@
     <item>
       <title>Accessibility Statement | Àkàndé Voice Assistant</title>
       <link>http://127.0.0.1:8000/accessibility/</link>
-      <description>Comprehensive accessibility statement for Àkàndé: WCAG 2.2 AA / AAA conformance, keyboard navigability, and screen reader verification.</description>
+      <description>Comprehensive accessibility statement for Àkàndé: WCAG 2.2 Level AA / AAA conformance, keyboard navigability, and assistive technology verification.</description>
       <guid isPermaLink="true">http://127.0.0.1:8000/accessibility/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
-      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-bonzai.webp" type="image/webp" length="0"/>
+      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-simple.webp" type="image/webp" length="0"/>
       <category>AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility</category>
       <category>AI</category>
       <category>Voice Assistant</category>
@@ -62,7 +62,7 @@
     <item>
       <title>Built with Static Site Generator (SSG)</title>
       <link>http://127.0.0.1:8000/made-with-ssg/</link>
-      <description>Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box.</description>
+      <description>Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Generator.</description>
       <guid isPermaLink="true">http://127.0.0.1:8000/made-with-ssg/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
@@ -83,7 +83,7 @@
       <guid isPermaLink="true">http://127.0.0.1:8000/contact/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
-      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-stock.webp" type="image/webp" length="0"/>
+      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-multiple.webp" type="image/webp" length="0"/>
       <category>AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility</category>
       <category>AI</category>
       <category>Voice Assistant</category>
@@ -96,7 +96,7 @@
     <item>
       <title>Frequently Asked Questions | Questions? Answers. | Àkàndé</title>
       <link>http://127.0.0.1:8000/faqs/</link>
-      <description>Find answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.</description>
+      <description>Find authoritative answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.</description>
       <guid isPermaLink="true">http://127.0.0.1:8000/faqs/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
@@ -113,7 +113,7 @@
     <item>
       <title>Key Features & Capabilities | Àkàndé Voice Assistant</title>
       <link>http://127.0.0.1:8000/features/</link>
-      <description>Explore the advanced capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.</description>
+      <description>Explore the cutting-edge capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.</description>
       <guid isPermaLink="true">http://127.0.0.1:8000/features/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
@@ -130,7 +130,7 @@
     <item>
       <title>Offline Mode | Àkàndé Voice Assistant</title>
       <link>http://127.0.0.1:8000/offline/</link>
-      <description>You are currently browsing offline.</description>
+      <description>You are currently browsing in offline mode.</description>
       <guid isPermaLink="true">http://127.0.0.1:8000/offline/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
@@ -151,7 +151,7 @@
       <guid isPermaLink="true">http://127.0.0.1:8000/privacy/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
-      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-pure.webp" type="image/webp" length="0"/>
+      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-desk.webp" type="image/webp" length="0"/>
       <category>AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility</category>
       <category>AI</category>
       <category>Voice Assistant</category>
@@ -164,11 +164,11 @@
     <item>
       <title>Tag Index | Àkàndé Voice Assistant</title>
       <link>http://127.0.0.1:8000/tags/</link>
-      <description>Browse topics and tags across the Àkàndé ecosystem.</description>
+      <description>Explore the topic directory and tag taxonomy for Àkàndé Voice Assistant architecture, capabilities, and documentation.</description>
       <guid isPermaLink="true">http://127.0.0.1:8000/tags/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
-      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-stock.webp" type="image/webp" length="0"/>
+      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant.webp" type="image/webp" length="0"/>
       <category>AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility</category>
       <category>AI</category>
       <category>Voice Assistant</category>
@@ -185,7 +185,7 @@
       <guid isPermaLink="true">http://127.0.0.1:8000/terms/</guid>
       <pubDate>Mon, 04 Mar 2024 06:06:06 +0100</pubDate>
       <author>The Àkàndé Voice Assistant Team</author>
-      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-wood.webp" type="image/webp" length="0"/>
+      <enclosure url="https://cloudcdn.pro/stocks/images/akande-voice-assistant-multiple.webp" type="image/webp" length="0"/>
       <category>AI, Voice Assistant, Python, GPT, SQLite, Privacy, Accessibility</category>
       <category>AI</category>
       <category>Voice Assistant</category>
