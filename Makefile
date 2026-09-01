@@ -16,7 +16,9 @@ help:
 
 build:
 	@rm -rf public docs/tags
-	@if command -v ssg >/dev/null 2>&1; then \
+	@if [ -x "/Users/seb/Code/Public/Rust/static-site-generator/target/release/ssg" ]; then \
+		/Users/seb/Code/Public/Rust/static-site-generator/target/release/ssg build --content _posts --template _layouts --output public; \
+	elif command -v ssg >/dev/null 2>&1; then \
 		ssg build --content _posts --template _layouts --output public; \
 	elif [ -x "$$HOME/.cargo/bin/ssg" ]; then \
 		"$$HOME/.cargo/bin/ssg" build --content _posts --template _layouts --output public; \
@@ -27,7 +29,7 @@ build:
 	@/usr/bin/python3 scripts/post-build.py
 
 audit: contrast validate
-	@if command -v pa11y-ci >/dev/null 2>&1; then \
+	@if pa11y-ci --version >/dev/null 2>&1; then \
 		pa11y-ci --config .pa11yci; \
 	fi
 	@/usr/bin/python3 scripts/regression-test.py .
