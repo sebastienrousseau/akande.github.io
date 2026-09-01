@@ -4,16 +4,13 @@
   "display": "standalone",
   "icons": [
     {
-      "purpose": "any maskable",
-      "sizes": "512x512",
+      "sizes": "192x192 512x512",
       "src": "https://cloudcdn.pro/akande/v1/logos/akande.svg",
       "type": "image/svg+xml"
     }
   ],
   "name": "Àkàndé Voice Assistant",
-  "orientation": "portrait-primary",
-  "scope": "/",
-  "short_name": "akande",
-  "start_url": ".",
-  "theme_color": "#ffffff"
+  "short_name": "Àkàndé",
+  "start_url": "/",
+  "theme_color": "#000000"
 }
