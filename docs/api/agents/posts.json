@@ -13,7 +13,7 @@
       "Voice Assistant"
     ],
     "title": "About Àkàndé Voice Assistant: Mission & Architecture",
-    "url": "http://127.0.0.1:8000/about/",
+    "url": "https://akande.co/about/",
     "wordCount": 109
   },
   {
@@ -30,7 +30,7 @@
       "Voice Assistant"
     ],
     "title": "Accessibility Statement | Àkàndé Voice Assistant",
-    "url": "http://127.0.0.1:8000/accessibility/",
+    "url": "https://akande.co/accessibility/",
     "wordCount": 128
   },
   {
@@ -47,7 +47,7 @@
       "Voice Assistant"
     ],
     "title": "Contact Us | Get in Touch with Àkàndé",
-    "url": "http://127.0.0.1:8000/contact/",
+    "url": "https://akande.co/contact/",
     "wordCount": 18
   },
   {
@@ -64,7 +64,7 @@
       "Voice Assistant"
     ],
     "title": "Frequently Asked Questions | Questions? Answers. | Àkàndé",
-    "url": "http://127.0.0.1:8000/faqs/",
+    "url": "https://akande.co/faqs/",
     "wordCount": 23
   },
   {
@@ -81,7 +81,7 @@
       "Voice Assistant"
     ],
     "title": "Key Features & Capabilities | Àkàndé Voice Assistant",
-    "url": "http://127.0.0.1:8000/features/",
+    "url": "https://akande.co/features/",
     "wordCount": 131
   },
   {
@@ -98,7 +98,7 @@
       "Voice Assistant"
     ],
     "title": "Àkàndé Voice Assistant: Executive AI & Productivity",
-    "url": "http://127.0.0.1:8000/index.html",
+    "url": "https://akande.co/index.html",
     "wordCount": 46
   },
   {
@@ -115,7 +115,7 @@
       "Voice Assistant"
     ],
     "title": "Built with Static Site Generator (SSG)",
-    "url": "http://127.0.0.1:8000/made-with-ssg/",
+    "url": "https://akande.co/made-with-ssg/",
     "wordCount": 84
   },
   {
@@ -132,7 +132,7 @@
       "Voice Assistant"
     ],
     "title": "Offline Mode | Àkàndé Voice Assistant",
-    "url": "http://127.0.0.1:8000/offline/",
+    "url": "https://akande.co/offline/",
     "wordCount": 17
   },
   {
@@ -149,7 +149,7 @@
       "Voice Assistant"
     ],
     "title": "Privacy Policy | Àkàndé Voice Assistant",
-    "url": "http://127.0.0.1:8000/privacy/",
+    "url": "https://akande.co/privacy/",
     "wordCount": 109
   },
   {
@@ -166,7 +166,7 @@
       "Voice Assistant"
     ],
     "title": "Tag Index | Àkàndé Voice Assistant",
-    "url": "http://127.0.0.1:8000/tags/",
+    "url": "https://akande.co/tags/",
     "wordCount": 16
   },
   {
@@ -183,7 +183,7 @@
       "Voice Assistant"
     ],
     "title": "Terms of Use | Àkàndé Voice Assistant",
-    "url": "http://127.0.0.1:8000/terms/",
+    "url": "https://akande.co/terms/",
     "wordCount": 97
   },
   {
@@ -200,7 +200,7 @@
       "Voice Assistant"
     ],
     "title": "Thank You! | Àkàndé Voice Assistant",
-    "url": "http://127.0.0.1:8000/thanks/",
+    "url": "https://akande.co/thanks/",
     "wordCount": 23
   }
 ]

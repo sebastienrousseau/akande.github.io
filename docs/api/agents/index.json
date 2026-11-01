@@ -5,17 +5,17 @@
     "topics": 7
   },
   "links": {
-    "index": "http://127.0.0.1:8000/api/agents/index.json",
-    "person": "http://127.0.0.1:8000/api/agents/person.json",
-    "posts": "http://127.0.0.1:8000/api/agents/posts.json",
-    "topics": "http://127.0.0.1:8000/api/agents/topics.json"
+    "index": "https://akande.co/api/agents/index.json",
+    "person": "https://akande.co/api/agents/person.json",
+    "posts": "https://akande.co/api/agents/posts.json",
+    "topics": "https://akande.co/api/agents/topics.json"
   },
   "site": {
-    "description": "A site built with SSG",
+    "description": "Zero-JavaScript static documentation and platform for Àkàndé, conforming strictly to WCAG 2.2 Level AAA.",
     "language": "en-GB",
-    "name": "MySsgSite",
-    "title": "",
-    "url": "http://127.0.0.1:8000"
+    "name": "Àkàndé Voice Assistant",
+    "title": "Àkàndé Voice Assistant: Executive AI & Productivity",
+    "url": "https://akande.co"
   },
-  "version": "0.0.58"
+  "version": "0.0.72"
 }

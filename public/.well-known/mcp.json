@@ -1,0 +1,25 @@
+{
+  "capabilities": {
+    "prompts": {
+      "listChanged": false
+    },
+    "resources": {
+      "listChanged": false
+    },
+    "tools": {
+      "listChanged": false
+    }
+  },
+  "prompts": [],
+  "protocolVersion": "2025-03-26",
+  "resources": [],
+  "serverInfo": {
+    "name": "Àkàndé Voice Assistant",
+    "version": "0.0.72"
+  },
+  "tools": [],
+  "transport": {
+    "type": "http",
+    "url": "https://akande.co/.well-known/mcp"
+  }
+}

@@ -3,9 +3,12 @@
     {
       "title": "About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture",
       "url": "/about/index.html",
-      "content": "Skip to main content About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Discover the vision, open-source architecture, and engineering principles driving \u00c0k\u00e0nd\u00e9 Voice Assistant. <div lang=\"en\"><h2>Our Vision</h2> <p>\u00c0k\u00e0nd\u00e9 was born from a fundamental belief: modern voice interfaces should be responsive, private, and deeply intelligent. By combining OpenAI's GPT models with a high-performance Python runtime and SQLite caching architecture, \u00c0k\u00e0nd\u00e9 delivers near-instant response times while respecting user data confidentiality.</p> <h2>Open-Source Innovation</h2> <p>Released under dual Apache-2.0 and MIT open-source licensing, \u00c0k\u00e0nd\u00e9 empowers developers worldwide to inspect, extend, and integrate voice capabilities into their own tools, services, and devices.</p> <h2>Privacy-First Engineering</h2> <p>Unlike conventional cloud assistants that transmit raw audio and telemetric profiles to third-party ad networks, \u00c0k\u00e0nd\u00e9 processes queries deterministically, utilizing local SQLite caching to minimize external API overhead and ensure full data governance.\\n</p> </div> Back to the top \u2191 \u2715 Type to search...",
+      "content": "Skip to main content About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Discover the vision, open-source architecture, and engineering principles driving \u00c0k\u00e0nd\u00e9 Voice Assistant. Our Vision \u00c0k\u00e0nd\u00e9 was born from a fundamental belief: modern voice interfaces should be responsive, private, and deeply intelligent. By combining OpenAI's GPT models with a high-performance Python runtime and SQLite caching architecture, \u00c0k\u00e0nd\u00e9 delivers near-instant response times while respecting user data confidentiality. Open-Source Innovation Released under dual Apache-2.0 and MIT open-source licensing, \u00c0k\u00e0nd\u00e9 empowers developers worldwide to inspect, extend, and integrate voice capabilities into their own tools, services, and devices. Privacy-First Engineering Unlike conventional cloud assistants that transmit raw audio and telemetric profiles to third-party ad networks, \u00c0k\u00e0nd\u00e9 processes queries deterministically, utilizing local SQLite caching to minimize external API overhead and ensure full data governance.\\n Back to the top \u2191 \u2715 Type to search...",
       "headings": [
         "About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture",
+        "Our Vision",
+        "Open-Source Innovation",
+        "Privacy-First Engineering",
         "About",
         "Legal",
         "Support",
@@ -15,13 +18,19 @@
     {
       "title": "Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "url": "/accessibility/index.html",
-      "content": "Skip to main content Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Comprehensive accessibility statement for \u00c0k\u00e0nd\u00e9: WCAG 2.2 Level AA / AAA conformance, keyboard navigability, and assistive technology verification. <div lang=\"en\"><h2>1. Conformance Standards</h2> <p>\u00c0k\u00e0nd\u00e9 Voice Assistant is engineered to conform with <strong>WCAG 2.2 Level AA and AAA</strong> criteria, Section 508, and European standard EN 301 549 across all desktop and mobile interfaces.</p> <h3>Perceivable</h3> <p>Maintains a minimum 7:1 contrast ratio across Light and Dark themes, with rich descriptive alt text for all interface icons and diagrams.</p> <h3>Operable</h3> <p>100% operable via keyboard alone with visible focus rings, zero keyboard traps, and instant skip links.</p> <h3>Understandable</h3> <p>Clear semantic typography, predictable navigation landmarks, and descriptive validation notices.</p> <h3>Robust</h3> <p>Tested with Apple VoiceOver, NVDA, and JAWS screen readers with complete WAI-ARIA landmark support.</p> <h2>2. Feedback & Contact</h2> <p>If you experience any accessibility barrier, please reach out via our <a href=\"/contact/index.html\">Contact Form</a>. We target responses within 2 business days.\\n</p> </div> Back to the top \u2191 \u2715 Type to search...",
+      "content": "Skip to main content Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Comprehensive accessibility statement for \u00c0k\u00e0nd\u00e9: WCAG 2.2 Level AA / AAA conformance, keyboard navigability, and assistive technology verification. 1. Conformance Standards \u00c0k\u00e0nd\u00e9 Voice Assistant is engineered to conform with WCAG 2.2 Level AA and AAA criteria, Section 508, and European standard EN 301 549 across all desktop and mobile interfaces. Perceivable Maintains a minimum 7:1 contrast ratio across Light and Dark themes, with rich descriptive alt text for all interface icons and diagrams. Operable 100% operable via keyboard alone with visible focus rings, zero keyboard traps, and instant skip links. Understandable Clear semantic typography, predictable navigation landmarks, and descriptive validation notices. Robust Tested with Apple VoiceOver, NVDA, and JAWS screen readers with complete WAI-ARIA landmark support. 2. Feedback & Contact If you experience any accessibility barrier, please reach out via our Contact Form. We target responses within 2 business days.\\n Back to the top \u2191 \u2715 Type to search...",
       "headings": [
         "Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant",
+        "1. Conformance Standards",
+        "2. Feedback & Contact",
         "About",
         "Legal",
         "Support",
-        "Follow Us"
+        "Follow Us",
+        "Perceivable",
+        "Operable",
+        "Understandable",
+        "Robust"
       ]
     },
     {
@@ -64,9 +73,14 @@
     {
       "title": "Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "url": "/features/index.html",
-      "content": "Skip to main content Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant Explore the cutting-edge capabilities of \u00c0k\u00e0nd\u00e9: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity. <div lang=\"en\"><h2>1. Natural Language Understanding</h2> <p>Powered by state-of-the-art GPT models, \u00c0k\u00e0nd\u00e9 accurately interprets conversational nuances, ambiguous prompts, and multi-step commands, translating complex voice queries into actionable insights.</p> <h2>2. Automated PDF Summaries</h2> <p>Instantly generate publication-ready PDF meeting summaries, complete with structured headers, action items, executive bullet points, and branded formatting for frictionless team sharing.</p> <h2>3. Smart SQLite Caching</h2> <p>Sub-millisecond query retrieval for repeated prompts eliminates redundant API latency, reduces operational bandwidth, and drastically lowers external inference costs.</p> <h2>4. Privacy-First Architecture</h2> <p>Zero third-party tracking, zero analytics pixels, and local configuration ensure that your executive voice interactions and proprietary data remain strictly confidential.</p> <h2>5. Universal Accessibility</h2> <p>Engineered from the ground up to comply with WCAG 2.2 Level AAA standards, featuring full keyboard accessibility, ARIA landmark support, and high-contrast color tokenization.\\n</p> </div> Back to the top \u2191 \u2715 Type to search...",
+      "content": "Skip to main content Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant Explore the cutting-edge capabilities of \u00c0k\u00e0nd\u00e9: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity. 1. Natural Language Understanding Powered by state-of-the-art GPT models, \u00c0k\u00e0nd\u00e9 accurately interprets conversational nuances, ambiguous prompts, and multi-step commands, translating complex voice queries into actionable insights. 2. Automated PDF Summaries Instantly generate publication-ready PDF meeting summaries, complete with structured headers, action items, executive bullet points, and branded formatting for frictionless team sharing. 3. Smart SQLite Caching Sub-millisecond query retrieval for repeated prompts eliminates redundant API latency, reduces operational bandwidth, and drastically lowers external inference costs. 4. Privacy-First Architecture Zero third-party tracking, zero analytics pixels, and local configuration ensure that your executive voice interactions and proprietary data remain strictly confidential. 5. Universal Accessibility Engineered from the ground up to comply with WCAG 2.2 Level AAA standards, featuring full keyboard accessibility, ARIA landmark support, and high-contrast color tokenization.\\n Back to the top \u2191 \u2715 Type to search...",
       "headings": [
         "Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant",
+        "1. Natural Language Understanding",
+        "2. Automated PDF Summaries",
+        "3. Smart SQLite Caching",
+        "4. Privacy-First Architecture",
+        "5. Universal Accessibility",
         "About",
         "Legal",
         "Support",
@@ -92,9 +106,12 @@
     {
       "title": "Built with Static Site Generator (SSG)",
       "url": "/made-with-ssg/index.html",
-      "content": "Skip to main content Built with Static Site Generator (SSG) Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Generator. <div lang=\"en\"><h2>1. Sub-Millisecond TTFB Performance</h2> <p>Every page is pre-rendered into static HTML at build time, eliminating database latency and runtime server overhead. Assets are delivered through global Edge CDN nodes with HTTP/2 and Brotli compression.</p> <h2>2. Absolute Privacy by Design</h2> <p>Static Site Generator does not inject tracking scripts, analytics cookies, or behavioral telemetry. Your browsing activity remains 100% private.</p> <h2>3. Cryptographic Subresource Integrity (SRI)</h2> <p>Every stylesheet, script, and font is secured using SHA-384 cryptographic integrity hashes, ensuring complete immunity against supply-chain tampering.\\n</p> </div> Back to the top \u2191 \u2715 Type to search...",
+      "content": "Skip to main content Built with Static Site Generator (SSG) Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Generator. 1. Sub-Millisecond TTFB Performance Every page is pre-rendered into static HTML at build time, eliminating database latency and runtime server overhead. Assets are delivered through global Edge CDN nodes with HTTP/2 and Brotli compression. 2. Absolute Privacy by Design Static Site Generator does not inject tracking scripts, analytics cookies, or behavioral telemetry. Your browsing activity remains 100% private. 3. Cryptographic Subresource Integrity (SRI) Every stylesheet, script, and font is secured using SHA-384 cryptographic integrity hashes, ensuring complete immunity against supply-chain tampering.\\n Back to the top \u2191 \u2715 Type to search...",
       "headings": [
         "Built with Static Site Generator (SSG)",
+        "1. Sub-Millisecond TTFB Performance",
+        "2. Absolute Privacy by Design",
+        "3. Cryptographic Subresource Integrity (SRI)",
         "About",
         "Legal",
         "Support",
@@ -104,9 +121,12 @@
     {
       "title": "Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "url": "/privacy/index.html",
-      "content": "Skip to main content Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Official privacy policy for \u00c0k\u00e0nd\u00e9: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights. <div lang=\"en\"><h2>1. Zero-Tracking Architecture</h2> <p>\u00c0k\u00e0nd\u00e9 operates under strict privacy by design: we do not collect personal tracking metrics, we do not utilize advertising pixels, and we do not sell data. Local storage is strictly limited to your preferred theme mode (light/dark).</p> <h2>2. Data Subject Rights (UK & EU GDPR)</h2> <p>Under UK GDPR, EU GDPR 2016/679, and the Data Protection Act 2018, you maintain statutory rights of access, rectification, erasure, and data portability. To exercise these rights, submit an inquiry via our <a href=\"/contact/index.html\">Contact Form</a>.</p> <h2>3. Security Standards</h2> <p>All interactions utilize TLS 1.3 encryption, Subresource Integrity (SRI) SHA-384 cryptographic hashing, and Content Security Policies to protect against client-side injection.\\n</p> </div> Back to the top \u2191 \u2715 Type to search...",
+      "content": "Skip to main content Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Official privacy policy for \u00c0k\u00e0nd\u00e9: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights. 1. Zero-Tracking Architecture \u00c0k\u00e0nd\u00e9 operates under strict privacy by design: we do not collect personal tracking metrics, we do not utilize advertising pixels, and we do not sell data. Local storage is strictly limited to your preferred theme mode (light/dark). 2. Data Subject Rights (UK & EU GDPR) Under UK GDPR, EU GDPR 2016/679, and the Data Protection Act 2018, you maintain statutory rights of access, rectification, erasure, and data portability. To exercise these rights, submit an inquiry via our Contact Form. 3. Security Standards All interactions utilize TLS 1.3 encryption, Subresource Integrity (SRI) SHA-384 cryptographic hashing, and Content Security Policies to protect against client-side injection.\\n Back to the top \u2191 \u2715 Type to search...",
       "headings": [
         "Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant",
+        "1. Zero-Tracking Architecture",
+        "2. Data Subject Rights (UK & EU GDPR)",
+        "3. Security Standards",
         "About",
         "Legal",
         "Support",
@@ -114,7 +134,7 @@
       ]
     },
     {
-      "title": "Tag: Accessibility",
+      "title": "Tag: Accessibility \u2014 \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity",
       "url": "/tags/accessibility/index.html",
       "content": "Skip to main content Tag: Accessibility 13 pages tagged Accessibility. 404 Page Not Found | \u00c0k\u00e0nd\u00e9 Voice Assistant About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Contact Us | Get in Touch with \u00c0k\u00e0nd\u00e9 Frequently Asked Questions | Questions? Answers. | \u00c0k\u00e0nd\u00e9 Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity Built with Static Site Generator (SSG) Offline Mode | \u00c0k\u00e0nd\u00e9 Voice Assistant Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Thank You! | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "headings": [
@@ -122,7 +142,7 @@
       ]
     },
     {
-      "title": "Tag: AI",
+      "title": "Tag: AI \u2014 \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity",
       "url": "/tags/ai/index.html",
       "content": "Skip to main content Tag: AI 13 pages tagged AI. 404 Page Not Found | \u00c0k\u00e0nd\u00e9 Voice Assistant About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Contact Us | Get in Touch with \u00c0k\u00e0nd\u00e9 Frequently Asked Questions | Questions? Answers. | \u00c0k\u00e0nd\u00e9 Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity Built with Static Site Generator (SSG) Offline Mode | \u00c0k\u00e0nd\u00e9 Voice Assistant Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Thank You! | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "headings": [
@@ -130,7 +150,7 @@
       ]
     },
     {
-      "title": "Tag: GPT",
+      "title": "Tag: GPT \u2014 \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity",
       "url": "/tags/gpt/index.html",
       "content": "Skip to main content Tag: GPT 13 pages tagged GPT. 404 Page Not Found | \u00c0k\u00e0nd\u00e9 Voice Assistant About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Contact Us | Get in Touch with \u00c0k\u00e0nd\u00e9 Frequently Asked Questions | Questions? Answers. | \u00c0k\u00e0nd\u00e9 Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity Built with Static Site Generator (SSG) Offline Mode | \u00c0k\u00e0nd\u00e9 Voice Assistant Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Thank You! | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "headings": [
@@ -140,9 +160,10 @@
     {
       "title": "Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "url": "/tags/index.html",
-      "content": "Skip to main content Topic: Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Browse all documents and resources associated with this topic. <div lang=\"en\"><h2>Knowledge & Topic Taxonomy</h2> <p>Browse all architectural, performance, and accessibility topics indexed across \u00c0k\u00e0nd\u00e9 documentation.\\n</p> </div> Back to the top \u2191 \u2715 Type to search...",
+      "content": "Skip to main content Topic: Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Browse all documents and resources associated with this topic. Knowledge & Topic Taxonomy Browse all architectural, performance, and accessibility topics indexed across \u00c0k\u00e0nd\u00e9 documentation.\\n Back to the top \u2191 \u2715 Type to search...",
       "headings": [
         "Topic: Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant",
+        "Knowledge & Topic Taxonomy",
         "About",
         "Legal",
         "Support",
@@ -150,7 +171,7 @@
       ]
     },
     {
-      "title": "Tag: Privacy",
+      "title": "Tag: Privacy \u2014 \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity",
       "url": "/tags/privacy/index.html",
       "content": "Skip to main content Tag: Privacy 13 pages tagged Privacy. 404 Page Not Found | \u00c0k\u00e0nd\u00e9 Voice Assistant About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Contact Us | Get in Touch with \u00c0k\u00e0nd\u00e9 Frequently Asked Questions | Questions? Answers. | \u00c0k\u00e0nd\u00e9 Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity Built with Static Site Generator (SSG) Offline Mode | \u00c0k\u00e0nd\u00e9 Voice Assistant Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Thank You! | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "headings": [
@@ -158,7 +179,7 @@
       ]
     },
     {
-      "title": "Tag: Python",
+      "title": "Tag: Python \u2014 \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity",
       "url": "/tags/python/index.html",
       "content": "Skip to main content Tag: Python 13 pages tagged Python. 404 Page Not Found | \u00c0k\u00e0nd\u00e9 Voice Assistant About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Contact Us | Get in Touch with \u00c0k\u00e0nd\u00e9 Frequently Asked Questions | Questions? Answers. | \u00c0k\u00e0nd\u00e9 Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity Built with Static Site Generator (SSG) Offline Mode | \u00c0k\u00e0nd\u00e9 Voice Assistant Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Thank You! | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "headings": [
@@ -166,7 +187,7 @@
       ]
     },
     {
-      "title": "Tag: SQLite",
+      "title": "Tag: SQLite \u2014 \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity",
       "url": "/tags/sqlite/index.html",
       "content": "Skip to main content Tag: SQLite 13 pages tagged SQLite. 404 Page Not Found | \u00c0k\u00e0nd\u00e9 Voice Assistant About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Contact Us | Get in Touch with \u00c0k\u00e0nd\u00e9 Frequently Asked Questions | Questions? Answers. | \u00c0k\u00e0nd\u00e9 Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity Built with Static Site Generator (SSG) Offline Mode | \u00c0k\u00e0nd\u00e9 Voice Assistant Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Thank You! | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "headings": [
@@ -174,7 +195,7 @@
       ]
     },
     {
-      "title": "Tag: Voice Assistant",
+      "title": "Tag: Voice Assistant \u2014 \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity",
       "url": "/tags/voice-assistant/index.html",
       "content": "Skip to main content Tag: Voice Assistant 13 pages tagged Voice Assistant. 404 Page Not Found | \u00c0k\u00e0nd\u00e9 Voice Assistant About \u00c0k\u00e0nd\u00e9 Voice Assistant: Mission & Architecture Accessibility Statement | \u00c0k\u00e0nd\u00e9 Voice Assistant Contact Us | Get in Touch with \u00c0k\u00e0nd\u00e9 Frequently Asked Questions | Questions? Answers. | \u00c0k\u00e0nd\u00e9 Key Features & Capabilities | \u00c0k\u00e0nd\u00e9 Voice Assistant \u00c0k\u00e0nd\u00e9 Voice Assistant: Executive AI & Productivity Built with Static Site Generator (SSG) Offline Mode | \u00c0k\u00e0nd\u00e9 Voice Assistant Privacy Policy | \u00c0k\u00e0nd\u00e9 Voice Assistant Tag Index | \u00c0k\u00e0nd\u00e9 Voice Assistant Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Thank You! | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "headings": [
@@ -184,9 +205,12 @@
     {
       "title": "Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant",
       "url": "/terms/index.html",
-      "content": "Skip to main content Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Official terms of use governing access, package downloads, software use, and dual Apache-2.0 & MIT open-source licensing for \u00c0k\u00e0nd\u00e9. <div lang=\"en\"><h2>1. Dual Open-Source Licensing</h2> <p>\u00c0k\u00e0nd\u00e9 is released under your choice of either the <strong>Apache License, Version 2.0</strong> or the <strong>MIT License</strong>. You are free to inspect, modify, and distribute the software for personal, academic, and commercial purposes.</p> <h2>2. Disclaimer of Warranties</h2> <p>THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.</p> <h2>3. Governing Law</h2> <p>These terms and any related disputes are governed by and construed in accordance with the laws of <strong>England and Wales</strong>.\\n</p> </div> Back to the top \u2191 \u2715 Type to search...",
+      "content": "Skip to main content Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant Official terms of use governing access, package downloads, software use, and dual Apache-2.0 & MIT open-source licensing for \u00c0k\u00e0nd\u00e9. 1. Dual Open-Source Licensing \u00c0k\u00e0nd\u00e9 is released under your choice of either the Apache License, Version 2.0 or the MIT License. You are free to inspect, modify, and distribute the software for personal, academic, and commercial purposes. 2. Disclaimer of Warranties THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. 3. Governing Law These terms and any related disputes are governed by and construed in accordance with the laws of England and Wales.\\n Back to the top \u2191 \u2715 Type to search...",
       "headings": [
         "Terms of Use | \u00c0k\u00e0nd\u00e9 Voice Assistant",
+        "1. Dual Open-Source Licensing",
+        "2. Disclaimer of Warranties",
+        "3. Governing Law",
         "About",
         "Legal",
         "Support",

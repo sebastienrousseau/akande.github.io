@@ -1,0 +1,18 @@
+{
+  "api": {
+    "is_user_authenticated": false,
+    "type": "openapi",
+    "url": "https://akande.co/openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support@akande.co",
+  "description_for_human": "Zero-JavaScript static documentation and platform for Àkàndé, conforming strictly to WCAG 2.2 Level AAA.",
+  "description_for_model": "Zero-JavaScript static documentation and platform for Àkàndé, conforming strictly to WCAG 2.2 Level AAA.",
+  "legal_info_url": "https://akande.co/legal",
+  "logo_url": "https://akande.co/favicon.ico",
+  "name_for_human": "Àkàndé Voice Assistant: Executive AI & Productivity",
+  "name_for_model": "knd_voice_assistant",
+  "schema_version": "v1"
+}

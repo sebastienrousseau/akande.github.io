@@ -1,5 +1,5 @@
-# MySsgSite
+# Àkàndé Voice Assistant
 
-> A site built with SSG
+> Zero-JavaScript static documentation and platform for Àkàndé, conforming strictly to WCAG 2.2 Level AAA.
 
 Language: en-GB

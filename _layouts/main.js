@@ -111,6 +111,14 @@
         .replace(/"/g, '&quot;');
     }
 
+    // Reduce an index entry to plain text. DOMParser never runs scripts,
+    // and textContent drops every tag, nested or malformed.
+    function plainText(str) {
+      if (!str) return '';
+      var doc = new DOMParser().parseFromString(String(str), 'text/html');
+      return doc.body.textContent || '';
+    }
+
     async function loadSearch() {
       if (searchIndex || isFetching) return;
       isFetching = true;
@@ -206,9 +214,9 @@
           return;
         }
         results.innerHTML = matches.map(function(item) {
-          return '<a class="search-item" href="' + item.url + '">' +
+          return '<a class="search-item" href="' + escapeHtml(item.url) + '">' +
             '<div class="search-item-title">' + escapeHtml(item.title) + '</div>' +
-            '<div class="search-item-desc">' + escapeHtml((item.description || item.content || '').replace(/<[^>]+>/g, '').slice(0, 140)) + '...</div>' +
+            '<div class="search-item-desc">' + escapeHtml(plainText(item.description || item.content).slice(0, 140)) + '...</div>' +
           '</a>';
         }).join('');
       });
