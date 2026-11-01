@@ -107,6 +107,17 @@ window.serviceWorkerSetup = new ServiceWorkerSetup();
       }
     });
 
+    // Escape text for HTML, and reduce an index entry to plain text.
+    // DOMParser never runs scripts, and textContent drops every tag.
+    const escapeHtml = (str) => String(str || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+    const plainText = (str) => str
+      ? new DOMParser().parseFromString(String(str), "text/html").body.textContent || ""
+      : "";
+
     if (input) {
       input.addEventListener("input", () => {
         const query = input.value.trim().toLowerCase();
@@ -122,14 +133,14 @@ window.serviceWorkerSetup = new ServiceWorkerSetup();
         }).slice(0, 8);
 
         if (matches.length === 0) {
-          results.innerHTML = "<div class=\"search-empty\">No results found for \"" + query + "\"</div>";
+          results.innerHTML = "<div class=\"search-empty\">No results found for \"" + escapeHtml(query) + "\"</div>";
           return;
         }
 
         results.innerHTML = matches.map(item => `
-          <a class="search-item" href="${item.url}">
-            <div class="search-item-title">${item.title}</div>
-            <div class="search-item-desc">${(item.description || item.content || "").replace(/<[^>]+>/g, "").slice(0, 100)}...</div>
+          <a class="search-item" href="${escapeHtml(item.url)}">
+            <div class="search-item-title">${escapeHtml(item.title)}</div>
+            <div class="search-item-desc">${escapeHtml(plainText(item.description || item.content).slice(0, 100))}...</div>
           </a>
         `).join("");
       });
