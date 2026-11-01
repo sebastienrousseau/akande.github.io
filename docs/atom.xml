@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>MySsgSite</title>
-  <link href="http://127.0.0.1:8000/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="http://127.0.0.1:8000"/>
-  <id>http://127.0.0.1:8000</id>
+  <title>Àkàndé Voice Assistant</title>
+  <link href="https://akande.co/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://akande.co"/>
+  <id>https://akande.co</id>
   <updated>2024-03-04T06:06:06+01:00</updated>
   <entry>
     <title>404 Page Not Found | Àkàndé Voice Assistant</title>
-    <link href="http://127.0.0.1:8000/404/"/>
-    <id>http://127.0.0.1:8000/404/</id>
+    <link href="https://akande.co/404/"/>
+    <id>https://akande.co/404/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>The requested page could not be located.</summary>
@@ -16,8 +16,8 @@
   </entry>
   <entry>
     <title>About Àkàndé Voice Assistant: Mission &amp; Architecture</title>
-    <link href="http://127.0.0.1:8000/about/"/>
-    <id>http://127.0.0.1:8000/about/</id>
+    <link href="https://akande.co/about/"/>
+    <id>https://akande.co/about/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Discover the vision, open-source architecture, and engineering principles driving Àkàndé Voice Assistant.</summary>
@@ -25,8 +25,8 @@
   </entry>
   <entry>
     <title>Accessibility Statement | Àkàndé Voice Assistant</title>
-    <link href="http://127.0.0.1:8000/accessibility/"/>
-    <id>http://127.0.0.1:8000/accessibility/</id>
+    <link href="https://akande.co/accessibility/"/>
+    <id>https://akande.co/accessibility/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Comprehensive accessibility statement for Àkàndé: WCAG 2.2 Level AA / AAA conformance, keyboard navigability, and assistive technology verification.</summary>
@@ -34,8 +34,8 @@
   </entry>
   <entry>
     <title>Contact Us | Get in Touch with Àkàndé</title>
-    <link href="http://127.0.0.1:8000/contact/"/>
-    <id>http://127.0.0.1:8000/contact/</id>
+    <link href="https://akande.co/contact/"/>
+    <id>https://akande.co/contact/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Get in touch with the Àkàndé Voice Assistant team for enterprise support, integration assistance, and developer inquiries.</summary>
@@ -43,8 +43,8 @@
   </entry>
   <entry>
     <title>Frequently Asked Questions | Questions? Answers. | Àkàndé</title>
-    <link href="http://127.0.0.1:8000/faqs/"/>
-    <id>http://127.0.0.1:8000/faqs/</id>
+    <link href="https://akande.co/faqs/"/>
+    <id>https://akande.co/faqs/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Find authoritative answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.</summary>
@@ -52,8 +52,8 @@
   </entry>
   <entry>
     <title>Key Features &amp; Capabilities | Àkàndé Voice Assistant</title>
-    <link href="http://127.0.0.1:8000/features/"/>
-    <id>http://127.0.0.1:8000/features/</id>
+    <link href="https://akande.co/features/"/>
+    <id>https://akande.co/features/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Explore the cutting-edge capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.</summary>
@@ -61,8 +61,8 @@
   </entry>
   <entry>
     <title>Built with Static Site Generator (SSG)</title>
-    <link href="http://127.0.0.1:8000/made-with-ssg/"/>
-    <id>http://127.0.0.1:8000/made-with-ssg/</id>
+    <link href="https://akande.co/made-with-ssg/"/>
+    <id>https://akande.co/made-with-ssg/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Generator.</summary>
@@ -70,8 +70,8 @@
   </entry>
   <entry>
     <title>Offline Mode | Àkàndé Voice Assistant</title>
-    <link href="http://127.0.0.1:8000/offline/"/>
-    <id>http://127.0.0.1:8000/offline/</id>
+    <link href="https://akande.co/offline/"/>
+    <id>https://akande.co/offline/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>You are currently browsing in offline mode.</summary>
@@ -79,8 +79,8 @@
   </entry>
   <entry>
     <title>Privacy Policy | Àkàndé Voice Assistant</title>
-    <link href="http://127.0.0.1:8000/privacy/"/>
-    <id>http://127.0.0.1:8000/privacy/</id>
+    <link href="https://akande.co/privacy/"/>
+    <id>https://akande.co/privacy/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Official privacy policy for Àkàndé: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights.</summary>
@@ -88,8 +88,8 @@
   </entry>
   <entry>
     <title>Tag Index | Àkàndé Voice Assistant</title>
-    <link href="http://127.0.0.1:8000/tags/"/>
-    <id>http://127.0.0.1:8000/tags/</id>
+    <link href="https://akande.co/tags/"/>
+    <id>https://akande.co/tags/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Explore the topic directory and tag taxonomy for Àkàndé Voice Assistant architecture, capabilities, and documentation.</summary>
@@ -97,8 +97,8 @@
   </entry>
   <entry>
     <title>Terms of Use | Àkàndé Voice Assistant</title>
-    <link href="http://127.0.0.1:8000/terms/"/>
-    <id>http://127.0.0.1:8000/terms/</id>
+    <link href="https://akande.co/terms/"/>
+    <id>https://akande.co/terms/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>Official terms of use governing access, package downloads, software use, and dual Apache-2.0 &amp; MIT open-source licensing for Àkàndé.</summary>
@@ -106,8 +106,8 @@
   </entry>
   <entry>
     <title>Thank You! | Àkàndé Voice Assistant</title>
-    <link href="http://127.0.0.1:8000/thanks/"/>
-    <id>http://127.0.0.1:8000/thanks/</id>
+    <link href="https://akande.co/thanks/"/>
+    <id>https://akande.co/thanks/</id>
     <updated>2024-03-04T06:06:06+01:00</updated>
     <published>2024-03-04T06:06:06+01:00</published>
     <summary>We have received your message and appreciate your interest.</summary>

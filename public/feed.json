@@ -1,6 +1,6 @@
 {
-  "feed_url": "http://127.0.0.1:8000/feed.json",
-  "home_page_url": "http://127.0.0.1:8000/",
+  "feed_url": "https://akande.co/feed.json",
+  "home_page_url": "https://akande.co/",
   "items": [
     {
       "authors": [
@@ -11,7 +11,7 @@
       "content_html": "The requested page could not be located.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/404/",
+      "id": "https://akande.co/404/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -23,7 +23,7 @@
         "Accessibility"
       ],
       "title": "404 Page Not Found | Àkàndé Voice Assistant",
-      "url": "http://127.0.0.1:8000/404/"
+      "url": "https://akande.co/404/"
     },
     {
       "authors": [
@@ -34,7 +34,7 @@
       "content_html": "Discover the vision, open-source architecture, and engineering principles driving Àkàndé Voice Assistant.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/about/",
+      "id": "https://akande.co/about/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -46,7 +46,7 @@
         "Accessibility"
       ],
       "title": "About Àkàndé Voice Assistant: Mission & Architecture",
-      "url": "http://127.0.0.1:8000/about/"
+      "url": "https://akande.co/about/"
     },
     {
       "authors": [
@@ -57,7 +57,7 @@
       "content_html": "Comprehensive accessibility statement for Àkàndé: WCAG 2.2 Level AA / AAA conformance, keyboard navigability, and assistive technology verification.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/accessibility/",
+      "id": "https://akande.co/accessibility/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -69,7 +69,7 @@
         "Accessibility"
       ],
       "title": "Accessibility Statement | Àkàndé Voice Assistant",
-      "url": "http://127.0.0.1:8000/accessibility/"
+      "url": "https://akande.co/accessibility/"
     },
     {
       "authors": [
@@ -80,7 +80,7 @@
       "content_html": "Get in touch with the Àkàndé Voice Assistant team for enterprise support, integration assistance, and developer inquiries.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/contact/",
+      "id": "https://akande.co/contact/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -92,7 +92,7 @@
         "Accessibility"
       ],
       "title": "Contact Us | Get in Touch with Àkàndé",
-      "url": "http://127.0.0.1:8000/contact/"
+      "url": "https://akande.co/contact/"
     },
     {
       "authors": [
@@ -103,7 +103,7 @@
       "content_html": "Find authoritative answers to frequently asked questions about Àkàndé Voice Assistant architecture, capabilities, and data security.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/faqs/",
+      "id": "https://akande.co/faqs/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -115,7 +115,7 @@
         "Accessibility"
       ],
       "title": "Frequently Asked Questions | Questions? Answers. | Àkàndé",
-      "url": "http://127.0.0.1:8000/faqs/"
+      "url": "https://akande.co/faqs/"
     },
     {
       "authors": [
@@ -126,7 +126,7 @@
       "content_html": "Explore the cutting-edge capabilities of Àkàndé: Natural Language Processing, PDF Summary Generation, SQLite Caching, and Inclusivity.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/features/",
+      "id": "https://akande.co/features/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -138,7 +138,7 @@
         "Accessibility"
       ],
       "title": "Key Features & Capabilities | Àkàndé Voice Assistant",
-      "url": "http://127.0.0.1:8000/features/"
+      "url": "https://akande.co/features/"
     },
     {
       "authors": [
@@ -149,7 +149,7 @@
       "content_html": "Delivering blazing speed, zero client-side tracking, and pristine accessibility out of the box with Rust Static Site Generator.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/made-with-ssg/",
+      "id": "https://akande.co/made-with-ssg/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -161,7 +161,7 @@
         "Accessibility"
       ],
       "title": "Built with Static Site Generator (SSG)",
-      "url": "http://127.0.0.1:8000/made-with-ssg/"
+      "url": "https://akande.co/made-with-ssg/"
     },
     {
       "authors": [
@@ -172,7 +172,7 @@
       "content_html": "You are currently browsing in offline mode.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/offline/",
+      "id": "https://akande.co/offline/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -184,7 +184,7 @@
         "Accessibility"
       ],
       "title": "Offline Mode | Àkàndé Voice Assistant",
-      "url": "http://127.0.0.1:8000/offline/"
+      "url": "https://akande.co/offline/"
     },
     {
       "authors": [
@@ -195,7 +195,7 @@
       "content_html": "Official privacy policy for Àkàndé: zero tracking cookies, local preference storage, and UK / EU GDPR data protection rights.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/privacy/",
+      "id": "https://akande.co/privacy/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -207,7 +207,7 @@
         "Accessibility"
       ],
       "title": "Privacy Policy | Àkàndé Voice Assistant",
-      "url": "http://127.0.0.1:8000/privacy/"
+      "url": "https://akande.co/privacy/"
     },
     {
       "authors": [
@@ -218,7 +218,7 @@
       "content_html": "Explore the topic directory and tag taxonomy for Àkàndé Voice Assistant architecture, capabilities, and documentation.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/tags/",
+      "id": "https://akande.co/tags/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -230,7 +230,7 @@
         "Accessibility"
       ],
       "title": "Tag Index | Àkàndé Voice Assistant",
-      "url": "http://127.0.0.1:8000/tags/"
+      "url": "https://akande.co/tags/"
     },
     {
       "authors": [
@@ -241,7 +241,7 @@
       "content_html": "Official terms of use governing access, package downloads, software use, and dual Apache-2.0 & MIT open-source licensing for Àkàndé.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/terms/",
+      "id": "https://akande.co/terms/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -253,7 +253,7 @@
         "Accessibility"
       ],
       "title": "Terms of Use | Àkàndé Voice Assistant",
-      "url": "http://127.0.0.1:8000/terms/"
+      "url": "https://akande.co/terms/"
     },
     {
       "authors": [
@@ -264,7 +264,7 @@
       "content_html": "We have received your message and appreciate your interest.",
       "date_modified": "2024-03-04T06:06:06+01:00",
       "date_published": "2024-03-04T06:06:06+01:00",
-      "id": "http://127.0.0.1:8000/thanks/",
+      "id": "https://akande.co/thanks/",
       "language": "en-GB",
       "tags": [
         "AI",
@@ -276,10 +276,10 @@
         "Accessibility"
       ],
       "title": "Thank You! | Àkàndé Voice Assistant",
-      "url": "http://127.0.0.1:8000/thanks/"
+      "url": "https://akande.co/thanks/"
     }
   ],
   "language": "en-GB",
-  "title": "MySsgSite",
+  "title": "Àkàndé Voice Assistant",
   "version": "https://jsonfeed.org/version/1.1"
 }

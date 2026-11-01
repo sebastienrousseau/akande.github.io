@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0 OR MIT
 # Semantic Version: v0.0.1
-.PHONY: all build audit test contrast validate compress prune clean help
+.PHONY: all build audit check-urls test contrast validate compress prune clean help
 
 all: build
 
@@ -10,22 +10,24 @@ help:
 	@echo "  make audit      - Run WCAG 2.2 AAA (Pa11y) and Master Quality Gate audits"
 	@echo "  make contrast   - Verify color tokens against WCAG 2.2 AAA math ratios"
 	@echo "  make validate   - Validate Markdown frontmatter schema integrity"
+	@echo "  make check-urls - Check canonicals, sitemap and redirects in docs/"
 	@echo "  make compress   - Pre-compress static output with Brotli, Zstd & Gzip"
 	@echo "  make prune      - Deterministically delete merged local/remote branches"
 	@echo "  make clean      - Remove build artifacts and temporary files"
 
+# Build with the latest released ssg on PATH (cargo install ssg --locked).
+# --config ssg.toml is explicit: built without it, ssg used its default
+# base_url and every canonical link pointed at http://127.0.0.1:8000.
 build:
+	@command -v ssg >/dev/null 2>&1 || { echo "ssg not found: cargo install ssg --locked"; exit 1; }
 	@rm -rf public docs/tags
-	@if [ -x "/Users/seb/Code/Public/Rust/static-site-generator/target/release/ssg" ]; then \
-		/Users/seb/Code/Public/Rust/static-site-generator/target/release/ssg build --content _posts --template _layouts --output public; \
-	elif command -v ssg >/dev/null 2>&1; then \
-		ssg build --content _posts --template _layouts --output public; \
-	elif [ -x "$$HOME/.cargo/bin/ssg" ]; then \
-		"$$HOME/.cargo/bin/ssg" build --content _posts --template _layouts --output public; \
-	elif [ -f build.sh ]; then \
-		bash build.sh; \
-	fi
+	@ssg build --config ssg.toml
+	@# ssg writes CNAME as a DNS zone line; Pages wants the bare host.
+	@cp CNAME public/CNAME
 	@cp -R public/* docs/ 2>/dev/null || true
+	@/usr/bin/python3 scripts/redirects.py public docs
+	@# ssg writes an empty <urlset> for this site; list the built pages.
+	@/usr/bin/python3 scripts/sitemap.py public docs
 	@/usr/bin/python3 scripts/post-build.py
 
 audit: contrast validate
@@ -33,9 +35,13 @@ audit: contrast validate
 		pa11y-ci --config .pa11yci; \
 	fi
 	@/usr/bin/python3 scripts/regression-test.py .
+	@/usr/bin/python3 scripts/check-urls.py docs
 
 contrast:
 	@/usr/bin/python3 scripts/audit-contrast.py
+
+check-urls:
+	@/usr/bin/python3 scripts/check-urls.py docs
 
 validate:
 	@/usr/bin/python3 scripts/validate-frontmatter.py

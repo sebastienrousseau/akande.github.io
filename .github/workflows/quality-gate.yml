@@ -42,3 +42,6 @@ jobs:
             chmod +x scripts/prune-branches.sh
             DRY_RUN=true bash scripts/prune-branches.sh origin
           fi
+
+      - name: Check canonicals, sitemap and redirects in docs/
+        run: python3 scripts/check-urls.py docs
