@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0 OR MIT
-# Semantic Version: v0.0.1
+# Semantic Version: v0.0.2
 site_name = "Àkàndé Voice Assistant"
 site_title = "Àkàndé Voice Assistant: Executive AI & Productivity"
 site_description = "Zero-JavaScript static documentation and platform for Àkàndé, conforming strictly to WCAG 2.2 Level AAA."
